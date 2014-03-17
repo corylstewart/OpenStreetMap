@@ -1,0 +1,1965 @@
+Primary features
+
+Aerialway
+Aerialways cover forms of transport for people or goods using aerial wires including cable-cars, chair-lifts and drag-lifts. See Aerialway for an introduction.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+aerialway	 cable_car	Way	cablecar or tramway. Just one or two large cars. The cable forms a loop, but the cars do not loop around, they just move up and down on their own side.	Mapping-Features-Aerialway.png	
+CH Furtschellas aerial tram.jpg
+aerialway	 chair_lift	Way	chairlift. Looped cable with a series of single chairs (typically seating two or four people, but can be more). Exposed to the open air. This implies oneway=yes. Any two-way chairlifts should be tagged oneway=no.	Chair lift rendering.png	Silver Queen Chair, CBMR.jpg
+aerialway	 drag_lift	Way	 An overhead tow-line for skiers and riders. A T-bar lift, button lift, or more simple looped rope drag lifts, or loops of wire with handles to grab. See also aerialway=t-bar, aerialway=j-bar and aerialway=platter.	Chair lift rendering.png	
+Picswiss BE-96-18 Skilift auf dem Leiterli.jpg
+aerialway	 gondola	Way	gondola lift. Many cars on a looped cable.	Chair lift rendering.png	
+Linbana kolmården cable car.jpg
+aerialway	 goods	Way	 A lift for goods. Passenger transport is usually not allowed	Aerialway goods.png	
+Materialseilbahn.jpg
+aerialway	 j-bar	Way	J-bar lift. A type of aerialway=drag_lift. Like t-bar but just on one side. This automatically implies oneway=yes.		
+Coldspgs j bar lift.jpg
+aerialway	 magic_carpet	Way	magic carpet. A type of ski lift. This automatically implies oneway=yes.		
+Magic carpet uphill loaded P1437.jpeg
+aerialway	 mixed_lift	Way	 A mixed lift, containing both gondolas and chairs.	Chair lift rendering.png	
+Cgd panoramabahn.jpg
+aerialway	 platter	Way	Platter lift. A type of aerialway=drag_lift. Similar to a t-bar, but with a disc instead of a bar. Single-person only. This automatically implies oneway=yes.		
+Tellerliftbügel.jpg
+aerialway	 pylon	Node	 A pylon supporting the aerialway cable.		
+09 Sommet TS.JPG
+aerialway	 rope_tow	Way	Rope tow. A type of aerialway=drag_lift. This automatically implies oneway=yes.		
+Rope tow overview.jpeg
+aerialway	 station	Node Area	 A station, where passengers can enter and/or leave the aerialway		
+WinterArmenia3.JPG
+aerialway	 t-bar	Way	T-bar lift. A type of aerialway=drag_lift. This automatically implies oneway=yes.		
+Orczyk.jpg
+aerialway	 user defined	Node Way	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Aeroway
+Mainly relating to aerodromes, airfields other ground facilities to support the operation of airplanes and helicopters. See Aeroways for an introduction to the mapping these features.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+aeroway	 aerodrome	Node Area	 An Aerodrome (UK), Airport (US)	
+Aerodrome.png
+Flemingfield looking north.JPG
+aeroway	 apron	Area	 A place where planes are parked.	Osmarender apron.png	
+800px-HFX Airport 4.jpg
+aeroway	 gate	Node	 Used to mark the gate numbers at the airports.	
+Rendering-aeroway=gate.JPG
+Edinburgh Airport gate lounge.jpg
+aeroway	 helipad	Node Area	 Helicopter start/landing pad	
+Helipad.p.16.png
+Altena - Lenneuferstraße 17 ies.jpg
+aeroway	 hangar	Node Area	 Large airport buildings for housing aircraft		
+Aircraft hangar.jpg
+aeroway	 runway	Way Area	 A strip of land kept clear and set aside for aeroplanes to take off from and land on. (Other languages)	Rendering-aeroway runway.png	
+Bogrunway.JPG
+aeroway	 taxiway	Way	 Where airplanes manouevre between runways and parking areas.	Rendering-aeroway taxiway.png	Planes in Chicago - 24.JPG
+aeroway	 terminal	Node Area	 Airport passenger building	
+Rendering-aeroway-terminal-mapnik.png
+Flughafen Frankfurt am Main - Gate A - Check-In 0212.jpg
+aeroway	 windsock	Node	 Used to mark the position of a windsock.		Vetrný rukáv, Cerné Voderady.jpg
+aeroway	 User defined	Node Way	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Amenity
+Used to map facilities for visitors and residents: toilets, telephones, banks, pharmacies (to buy medicines), schools. See Amenities for an introduction.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Sustenance
+amenity	 bar	Mf node.png Mf area.png	 A place selling alcoholic drinks. See description of amenity=bar and amenity=pub for distinction between bar and pub	
+Bar.p.20.png
+Bar MXCT.JPG
+amenity	 bbq	Mf node.png	 A public grill for cooking meat or vegetables, most typically to eat outdoors. Use fuel=* to specify source of heating. For campfires and firepits, use leisure=firepit		
+Grillplatzusa.jpg
+amenity	 biergarten	Mf node.png Mf area.png	 An outdoor area in which beer, other drinks, and local food are served.	
+Biergarten.p.16.png
+Biergarten.JPG
+amenity	 cafe	Mf node.png Mf area.png	 A cafe. The kind of food served can be tagged with cuisine=* and diet=*.	
+OSB cafe.png
+Klagenfurt Wörthersee Strandbad Cafe Sunset Bar 11102008 65.jpg
+amenity	 drinking_water	Mf node.png	 A place to obtain potable water to drink.	
+Food drinkingtap.p.20.png
+Basler Trinkwasser 1341.jpg
+amenity	 fast_food	Mf node.png Mf area.png	 Fast food restaurant (see also amenity=restaurant). The kind of food served can be tagged with cuisine=* and diet=*.	
+Fast food.png
+Burger king kamen osm.jpg
+amenity	 food_court	Mf node.png Mf area.png	 An area with several different restaurant food counters and a shared eating area. Commonly found in malls, airports, etc.		
+Coca Cola Oase Centro Germany View From Above.jpg
+amenity	 ice_cream	Mf node.png Mf area.png	 Ice cream shop or ice cream parlour. A place that sells ice cream and frozen yoghurt over the counter		
+Shop-ice cream.jpeg
+amenity	 pub	Mf node.png Mf area.png	 A place selling beer and other alcoholic drinks; may also provide food or accommodation (UK). See description of amenity=bar and amenity=pub for distinction between bar and pub	
+Amenity-pub.png
+Pub.jpg
+amenity	 restaurant	Mf node.png Mf area.png	 Restaurant (not fast food, see amenity=fast_food). The kind of food served can be tagged with cuisine=* and diet=*.	
+Rendering-amenity-restaurant-mapnik.png
+Caprice Restaurant.JPG
+Education
+amenity	 college	Mf node.png Mf area.png	 A college campus or buildings	Mf node.png : College.png 
+Mf area.png : Rendering-area-amenity-college.png	
+Cambridge Regional College main entrance.jpg
+amenity	 kindergarten	Mf node.png Mf area.png	 For children too young for a regular school (also known as playschool or nursery school).		
+Story Time.jpg
+amenity	 library	Mf node.png Mf area.png	 A public library (municipal, university, …) to borrow books from.	
+Library.p.20.png
+Guantanamo captives' library a.jpg
+amenity	 school	Mf node.png Mf area.png	 School and grounds	Mf node.png : Icon-amenity school.png 
+Mf area.png : Rendering-area-amenity-school.png	
+Williamstown school.jpg
+amenity	 university	Mf node.png Mf area.png	 A university campus	Mf node.png : Icon-amenity university.png 
+Mf area.png : Rendering-area-amenity-university.png	
+Brock University campus.JPG
+Transportation
+amenity	 bicycle_parking	Mf node.png Mf area.png	 Parking for bicycles		
+Bicycle-parking.jpg
+amenity	 bicycle_rental	Mf node.png Mf area.png	 Rent a bicycle	
+Rental bicycle.p.20.png
+Bicycle-rental.jpg
+amenity	 bus_station	Mf node.png Mf area.png	 Has been replaced by public_transport=station.	
+Bus station.n.16.png
+Manchester Piccadilly Bus Station.jpg
+amenity	 car_rental	Mf node.png Mf area.png	 Rent a car		
+Hertz car rental office Livonia Michigan.JPG
+amenity	 car_sharing	Mf node.png Mf area.png	 Share a car	
+Car share.p.16.png
+U Car Share Shattuck Hearst.jpg
+amenity	 car_wash	Mf node.png Mf area.png	 Wash a car		
+Wuppertal - Friedrich-Engels-Allee 130 02 ies.jpg
+amenity	 ev_charging	Mf node.png	 Electric vehicle charging facility. Don't use, amenity=charging_station is preferred.	
+Ev charging.png
+Evpost.jpg
+amenity	 charging_station	Mf node.png	 Charging facility for electric vehicles	
+Charging station.svg
+Evpost.jpg
+amenity	 ferry_terminal	Mf node.png Mf area.png	 Ferry terminal/stop. A place where people/cars/etc. can board and leave a ferry.		
+Ferry Reet.jpg
+amenity	 fuel	Mf node.png Mf area.png	 Petrol station; gas station; marine fuel; … Streets to petrol stations are often tagged highway=service.	
+Fuel.p.16.png
+Preem Karlskrona.jpg
+amenity	 grit_bin	Mf node.png	 A container that holds grit or a mixture of salt and grit.	
+Grid bin 32.png
+Grit bin.jpg
+amenity	 parking	Mf node.png Mf area.png	 Car park. Nodes and areas (without access tag) will get a parking symbol. Areas will be colored. Streets on car parking are often tagged highway=service and service=parking_aisle.	
+Parking.p.16.png
+P3030027ParkingLot wb.jpg
+amenity	 parking_entrance	Mf node.png	 An entrance or exit to an underground or multi-storey parking facility. Group multiple parking entrances together with a relation using the tags  type=site and site=parking.Do not mix with amenity=parking.		
+3690668043 88a731e3e0 b.jpg
+amenity	 parking_space	Mf node.png Mf area.png	 A single parking space. Group multiple parking spaces together with a relation using the tags  type=site and site=parking.Do not mix with amenity=parking.		
+138081166 2a56d66c27 b.jpg
+amenity	 taxi	Mf node.png Mf area.png	 A place where taxis wait for passengers.		
+Amenity taxi picture-Hong Kong Shatin Taxi Stand.jpg
+Financial
+amenity	 atm	Mf node.png	 an ATM or cash point	
+Atm2.p.16.png
+ATM 750x1300.jpg
+amenity	 bank	Mf node.png Mf area.png	 a bank (for a bank that also has an ATM, it is preferred that a separate node for each ATM is added)	
+Bank2.p.16.png
+Dscf1401-800.jpg
+amenity	 bureau_de_change	Mf node.png	 Bureau de change, currency exchange, Wechsel, cambio - a place to change foreign bank notes and travellers cheques	
+Bureau de change.svg
+Bureau de change electronic sign.jpg
+Healthcare
+amenity	 baby_hatch	Mf node.png Mf area.png	 A place where you can drop a baby anonymously for adoption		
+Babybox - venkovní strana.jpg
+amenity	 clinic	Mf node.png Mf area.png	 A medium-sized medical facility or health centre.		
+Bristol , Central Health Clinic - geograph.org.uk - 1360619.jpg
+amenity	 dentist	Mf node.png Mf area.png	 A dentist practice / surgery.		
+Military dentists in Guatemala.jpg
+amenity	 doctors	Mf node.png Mf area.png	 A doctors' practice / surgery.		
+Doctors stethoscope 2.jpg
+amenity	 hospital	Mf node.png Mf area.png	 Often used in conjunction with emergency=* to note whether or not the hospital has emergency facilities (A&E (brit.) or ER (am.))	
+Rendering-amenity hospital.png
+Guantanamo captive's hospital beds -c.jpg
+amenity	 nursing_home	Mf node.png Mf area.png	 A home for disabled or elderly persons who need permanent care. See social_facility=* for more details.		
+Hora Svate Kateriny - nursing home.jpg
+amenity	 pharmacy	Mf node.png Mf area.png	 Pharmacy
+dispensing=yes
+dispensing=no or omitted	Pharmacy dispencing.png : dispensing="yes" 
+Pharmacy nondispensing.png : dispensing="no" or omitted	
+Boots The Chemist At Gunwharf Quays.jpg
+amenity	 social_facility	Mf node.png Mf area.png	 A facility that provides social services.		
+Salvation Army Citadel, Hill Street , Newport - geograph.org.uk - 1585015.jpg
+amenity	 veterinary	Mf node.png Mf area.png	 A place where a veterinary surgeon (vet) practices.	
+Vetlogo.svg
+Veterinary Surgeon.jpg
+Entertainment, Arts & Culture
+amenity	 arts_centre	Mf node.png Mf area.png	 A venue where a variety of arts are performed or conducted	
+Palette.gif
+Alhamra Art Centre.JPG
+amenity	 brothel	Mf node.png Mf area.png	 An establishment specifically dedicated to prostitution		
+Walletjes 001.jpg
+amenity	 cinema	Mf node.png Mf area.png	 A place where films are shown (US: movie theater)	
+Rendering-amenity-cinema-mapnik.png
+Palace cinéma beaumont.JPG
+amenity	 community_centre	Mf node.png Mf area.png	 A place mostly used for local events and festivities.		
+Greasby Community Centre.JPG
+amenity	 fountain	Mf node.png Mf area.png	 A fountain for cultural / decorational / recreational purposes.		
+Fountain at Milan citadel.JPG
+amenity	 nightclub	Mf node.png Mf area.png	 A place to drink and dance (nightclub). The german word is "Disco" or "Discothek". Please don't confuse this with the german "Nachtclub" wich is most likely amenity=stripclub.	
+Nightclub.png
+Gatecrasher.jpg
+amenity	 planetarium	Mf node.png Mf way.png Mf area.png	 A planetarium.		
+Planetarium.jpg
+
+amenity	 social_centre	Mf node.png Mf area.png	 A place for free and not-for-profit activities.		
+Governor Hotel, Rotary Club of Portland plaque.JPG
+amenity	 stripclub	Mf node.png	 A place that offers striptease or lapdancing (for sexual services use amenity=brothel).		
+Stripclub.jpg
+amenity	 studio	Mf node.png Mf area.png	 TV radio or recording studio	
+Studio.png
+DOUG.jpg
+amenity	 swingerclub	Mf node.png Mf area.png	 A club where people meet to have a party and group sex.		
+Swingerclub Cäsars Palace. Spröckhövel.JPG
+amenity	 theatre	Mf node.png Mf area.png	 A theatre or opera house	
+Theatre.p.20.png
+Sydney opera.jpg
+Others
+amenity	 animal_boarding	Mf node.png Mf area.png	 A facility where you, paying a fee, can bring your animal for a limited period of time (e.g. for holidays)	
+Dog boarding icon.png
+Holmbyre Cattery - geograph.org.uk - 167661.jpg
+amenity	 animal_shelter	Mf node.png Mf area.png	 A shelter that recovers animals in trouble	
+Dog shelter icon.png
+Deer shelter icon.png
+Kennel 2.jpg
+amenity	 bench	Mf node.png	 A bench to sit down and relax a bit	
+Lavicka.png
+Bench.jpg
+amenity	 clock	Mf node.png	 A public visible clock		
+Houses Of Parliament Clock Tower (Big Ben).jpg
+amenity	 courthouse	Mf node.png Mf area.png	 A place where justice is dispensed	
+Amenity court.p.20.png
+Franklinctycrthsapalchicola01.jpg
+amenity	 coworking_space	Mf node.png Mf area.png	 A place where people can go to work (might require a fee); not limited to a single employer		
+Coworking Space in Berlin.jpg
+amenity	 crematorium	Mf node.png Mf area.png	 A place where dead human bodies are burnt		
+Bushbury Crematorium - geograph.org.uk - 259876.jpg
+amenity	 crypt	Mf node.png Mf area.png	 It is a stone chamber or vault beneath the floor of a burial vault possibly containing sarcophagi, coffins or relics.		
+Dresden-Hofkirche-Gruft.jpg
+amenity	 dojo	Mf node.png Mf area.png	 Training place for any of the Japanese arts.		
+Noma Dojo, 2006.JPG
+amenity	 embassy	Mf node.png Mf area.png	 An embassy	
+Embassy.png
+Bulgarian embassy in Paris.jpg
+amenity	 fire_station	Mf node.png Mf area.png	 A fire station	
+Firestation.p.16.png
+Fire station.jpg
+amenity	 firepit	Node Area	 Deprecated. For campfires and firepits, see Tag:leisure=firepit		
+Camp site.jpg
+amenity	 grave_yard	Mf node.png Mf area.png	 A (smaller) place of burial, often you'll find a church nearby. Large places should be landuse=cemetery instead.		
+Odenbuell Nordstrand St Vinzenz IMGP2940 wp crop.jpg
+amenity	 gym	Mf node.png Mf area.png	 It's recommended to not use this tag as it's ambiguous. See leisure=sport_centre or sport=gymnastics		
+amenity	 hunting_stand	Mf node.png Mf area.png	 A hunting stand		
+A rised hide closed quadrat.jpg
+amenity	 marketplace	Mf way.png Mf area.png	 A place where trade is regulated, e.g. a square.		
+Marche berlin002.jpg
+amenity	 place_of_worship	Mf node.png Mf area.png	 A church, mosque, or temple, etc. Note that you also need religion=*, usually denomination=* and preferably name=* as well as amenity=place_of_worship. See the article for details.	
+Place of worship symbols.png
+Place of worship.png
+amenity	 police	Mf node.png Mf area.png	 A police station	
+Police.p.16.png
+Ploizeiautos Davidwache.jpg
+amenity	 post_box	Mf node.png	 Alternative mail-carriers can be tagged via operator=*	
+Amenity-post box.png
+Post Box.JPG
+amenity	 post_office	Mf node.png Mf area.png	 Post office building with postal services	
+Amenity-post office.png
+100px-Pošta Praha 025.jpg
+amenity	 prison	Mf node.png Mf area.png	 A prison	
+Amenity prison.p.20.png
+Osaka keimusho.jpg
+amenity	 public_building	Mf node.png Mf area.png	 A generic public building. Don't use! See building=public		
+amenity	 ranger_station	Mf node.png Mf area.png	 National Park Visitor Headquarters	
+NPS ranger station.svg
+Talkeetna Ranger Station.jpg
+amenity	 register_office	Mf node.png Mf area.png	 Register office. See also office=register		
+amenity	 recycling	Mf node.png Mf area.png	 Recycling facilities (bottle banks etc.). Combine with recycling_type=container for containers or recycling_type=centre for recycling centres.	
+Recycling.png
+Recycling.jpg
+amenity	 sauna	Mf node.png Mf area.png	 A small room or house to experience dry or wet heat sessions.		
+Sauna in pancevo.jpg
+amenity	 shelter	Mf node.png Mf area.png	 A small shelter against bad weather conditions. To additionally describe the kind of shelter use shelter_type=*.	
+Rendering-amenity-shelter-mapnik.png
+Réunion Maïdo kiosque pique-nique.JPG
+amenity	 shower	Mf node.png Mf area.png	 Public shower or bath.		
+Znak D-26d.svg
+amenity	 telephone	Mf node.png	 Public telephone	
+Telephone.p.16.png
+Telephone.jpg
+amenity	 toilets	Mf node.png Mf area.png	 Public toilets (might require a fee)	
+Toilets.p.20.png
+WC-Anlage.jpg
+amenity	 townhall	Mf node.png Mf area.png	 Building where the administration of a village, town or city may be located, or just a community meeting place	
+Townhall.png
+TownHall-Ljubljana.JPG
+amenity	 vending_machine	Mf node.png	 A machine selling goods – food, tickets, newspapers, etc. Add type of goods using vending=*	
+Vending machine.png
+Vending machines at Haeundae.jpg
+amenity	 waste_disposal	Mf node.png	 A place where canal boaters, caravaners etc. can dispose of rubbish (trash/waste).		
+Waste container.jpg
+amenity	 watering_place	Mf node.png	 Place where water is contained and animals can drink		
+Drinking Water For Humans and Animals.jpg
+amenity	 water_point	Mf node.png	 Place where you can get large amounts of drinking water		
+Aire de Valuejols.JPG
+amenity	 user defined	Mf node.png Mf way.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Barrier
+Used to describe barriers and obstacles to travel. See Barriers for more details on usage.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Linear barriers
+barrier	 city_wall	Way Area	 A fortification used to defend a city or settlement from potential aggressors. 
+From ancient to modern times, they are used to enclose settlements.
+right side is bottom, left side is top. if both sides are same height then add "two_sided=yes".
+See also historic=city_gate.
+
+City wall avila.png
+barrier	 ditch	Way Area	 A trench, ditch or ravine, usually with a stream at the bottom, that is not easily crossed, especially if not on foot. 
+Can be used in combination with waterway=stream or waterway=drain.		
+Forest ditch.JPG
+barrier	 fence	Way Area	 A structure supported by posts driven into the ground and designed to prevent movement across a boundary. It is distinguished from a wall by the lightness of its construction. Use fence_type=* to add details.	Barrier fence mapnik.png	Anglerise.jpg
+barrier	 guard_rail	Way	 A guard_rail, also called a crash barrier. Right side is inner, left side is outer.		CrashBarrier.jpg
+barrier	 hedge	Way Area	 is a line of closely spaced shrubs and bushes, planted and trained in such a way as to form a barrier or to mark the boundary of an area.		Daniel Fuchs.CC-BY-SA.Morus nigra.Hedge.jpg
+barrier	 kerb	Node Way	 A (for example footway) kerb is a barrier for vehicles and wheelchair drivers. The height of the kerb is important and with this information, the usage by different groups can be determined. The height of the kerb is tagged additionally as height=*, if available. Right side is bottom, left side is top.		Obrubnik.jpg
+barrier	 retaining_wall	Way Area	 Retaining walls serve to retain the lateral pressure of soil. Right side is bottom, left side is top.		Retaining wall.png
+barrier	 wall	Way Area	 a freestanding solid structure designed to restrict or prevent movement across a boundary. Usually made from solid brick, concrete or stone and almost always built so that it is opaque to vision.	Wallonmap.png	Dscf0590-800.jpg
+Access control on highways
+barrier	 block	Node	 A large, solid, immobile block that can be moved only with heavy machinery or great effort. 
+Typically big solid things made of concrete for stopping larger vehicles. 
+Sometimes natural boulders are used for the same purpose.		Barrier roadblock.jpg
+barrier	 bollard	Node Way	 solid (usually concrete or metal) pillar or pillars in the middle of the road to prevent passage by some traffic.		Bollard in residential area.jpg
+barrier	 border_control	Node	 This is a control point at an international border between two countries. Passports or other forms of ID will be checked.		EU Swiss border post.jpg
+barrier	 bump_gate	Node	 See wikipedia:Bump gate		[1] [2] [3]
+barrier	 bus_trap	Node	 See wikipedia:Bus trap		Bussluse 05-04-06 02.jpg
+barrier	 cattle_grid	Node	 Bars in the road surface that allow wheeled vehicles but not animals to cross. 
+Sometimes known as a Texas Gate, even outside of Texas		
+Cattle grid.jpg
+barrier	 chain	Node	 A chain used to prevent motorised vehicles.		Barrier chain.jpg
+barrier	 cycle_barrier	Node	 Barriers to bicycle traffic, most typically a pair of staggered steel bars perpendicular to the way itself whose gaps allow pedestrians to pass.		Unknown barrier.jpg
+barrier	 debris	Node	 A road is blocked by debris with or without ground. This might be for short or long time. Often used as first step in blocking an abandoned road. The photo does not display the road after the debris because it was a slope road and the photo was taken on the top.		Barrier debris.jpg
+barrier	 entrance	Node	 A gap in a linear barrier with nothing that limits passing through. 
+access=yes is understood. 
+The limitations are the same of the way that crosses it, if there is such.		Entrance.png
+barrier	 full-height_turnstile	Node	 A full-height turnstile, also called HEET-turnstile (High Entrance/Exit Turnstile), like the ones to access security areas. Note the mix of hyphen and underscore.		TR-a.JPG
+barrier	 gate	Node Way	 An entrance that can be opened or closed to get through the barrier. 
+Combine with access=* where appropriate.		Gate-hindeloopen-westerdijk.jpg
+barrier	 horse_stile	Node	 A horse stile allows pedestrians and horses to cross a gap through a fence, but prevents or makes it very difficult for motorcycles and live stock to cross.		Horse stile.jpg
+barrier	 jersey_barrier	Node Way	 A jersey barrier consists of heavy prefabricated blocks to create a barrier. Use material=plastic or material=concrete to express the used material.		Dora Baghdad soldiers.jpg
+barrier	 kent_carriage_gap	Node	 A Kent carriage gap is used by local authorities in the UK to prevent motorised vehicles from accessing public rights of way whilst allowing most horse drawn carriages to pass. 
+These are now becoming common on byways in the UK		[4]
+barrier	 kissing_gate	Node	 A gate which allows people to cross, but not livestock.		TL0452 stile.jpg
+barrier	 lift_gate	Node	 A lift gate (boom barrier) is a bar, or pole pivoted in such a way as to allow the boom to block vehicular access through a controlled point. 
+Combine with access=* where appropriate.		Lift gate.jpg
+barrier	 log	Node Way	 Use this when the passage is closed by lumber (trunk of a tree). This kind of barrier is often useful to sit on. This barrier is a penalty to cyclists but can be crossed by lifting the bike over.		Rundholz-buche.jpg
+barrier	 motorcycle_barrier	Node	 Barriers along paths that prevent access by motorcycles.		Motorcycle barrier.jpg
+barrier	 rope	Node Way	 A flexible barrier made of fibres, twisted or braided together to improve strength. As a barrier it is often more symbolic than actually physically preventing pedestrians from accessing.		Black Red Gold Rope at German Bundestag in Berlin 2010.jpg
+barrier	 sally_port	Node	 A sally port is used to pass through thick or city walls, and is a type of covered gate with two doors.		Sallyport.jpg
+barrier	 spikes	Node Way Area	 Spikes on the ground that prevent unauthorized access. Can also be removeable e.g. after payment in a garage.		US Army spike strip.jpg
+barrier	 stile	Node	 A stile allows pedestrians to cross a wall or fence, but never actually "opens" the barrier 
+(unlike a gate, a stile has few or no moving parts).		KentStile.jpg
+barrier	 sump_buster	Node	 A sump buster is a concrete slab or steel structure that prevents passing of two-tracked vehicles with less than a minimum track and ground clearance. (Typically stops normal cars.)		SumpBuster.jpg
+barrier	 swing_gate	Node	 Similar to a lift gate but rotates sidewards to open. It is usually made out of metal bars (wood or other material possible) and is intended to prevent cars from access but can usually be crossed by pedestrians and cyclists.		16052010022.JPG
+barrier	 toll_booth	Node	 A road usage toll or fee is collected here.		Toll booth.jpg
+barrier	 turnstile	Node	 A turnstile (also called baffle gate) is used to allow one person at a time to pass. Use this for small turnstiles like the ones in supermarkets or some subways.		Barrier drehkreuz.JPG
+barrier	 user defined	Mf node.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Boundary
+Used to describe administrative and other boundaries. See Boundaries for more details.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+boundary	 administrative	Area	 An administrative boundary. Subdivisions of areas/territories/jurisdictions recognised by governments or other organisations for administrative purposes. These range from large groups of nation states right down to small administrative districts and suburbs, as indicated by the 'admin_level=*' combo tag	
+Rendering-area-boundary-administrative.png
+Lake city sign.jpg
+boundary	 maritime	Area	 Maritime boundaries		
+boundary	 national_park	Area	 Area of outstanding natural beauty, set aside for conservation and for recreation (Other languages)	
+Rendering-area-boundary-national park.png
+Kings Canyon NP Sign.JPG
+boundary	 political	Area	 Electoral boundaries		
+boundary	 postal_code	Area	 Postal code boundaries		
+boundary	 religious_administration	Area	 An religious administrative boundary.
+See: Talk:Key:boundary#Religious authority boundaries		
+boundary	 protected_area	Area	 Protected areas, such as for national-parks, water protection areas or indigenous areas.		
+border_type	 *	Way Area	 To distinguish between types of boundary where admin_level isn't enough. Used in several different ways e.g in maritime contexts		
+boundary	 user defined	Node Way	All commonly used values according to Taginfo		
+Attributes
+admin_level	 Number	Area	 Applies to boundary=administrative and is usually in the range 1 to 10, except for Germany where it might be 11 - see boundary.		
+This table is a wiki template with a default description in English. Editable here.
+Building
+Used to identify individual buildings or groups of connected buildings. See Buildings for further details of usage of this tag and man_made=* for tagging of various other structures.
+Key	 Value	 Element	 Comment	 Photo
+Accommodation
+building	 apartments	Area	 A building arranged into individual dwellings, often on separate floors. May also have retail outlets on the ground floor. How does one map the retail elements? Use building:levels=* for the total number of floors.	Apartments6levels.png
+building	 dormitory	Area	 For a shared building, as used by college/university students (not a share room for multiple occupants as implied by the term in British English). Would 'hall_of_residence' be better?	Belgrade Dormitory.jpg
+building	 farm	Area	 A residential building on a farm (farmhouse). For other buildings see below building=farm_auxiliary, building=barn, ... If in your country farmhouse looks same as general residential house then you can tag as building=house as well. See also landuse=farmyard	Studna pred c.1.,Holašovice.JPG
+building	 hotel	Area	 A building designed with separate rooms available for overnight accommodation. Normally used in conjunction with tourism=hotel for the hotel grounds including recreation areas and parking.	Hcom 1097758 7 b.jpg
+building	 house	Area	 A single dwelling unit inhabited by family or small group sharing facilities such as a kitchen. Houses forming half of a semi-detached pair, or one of a row of terraced houses, should share at least two nodes with joined neighbours, thereby defining the party wall between the properties.	Emptyhouse.jpg
+building	 detached	Area	 A single dwelling unit inhabited by family or small group sharing facilities such as a kitchen.	Residential House USA.JPG
+building	residential	Area	 A general tag for a building used primarily for residential purposes. Where additional detail is available consider using one or more areas tagged as 'apartments', 'terrace' or 'house'.	Timarpur Residential Complex.jpg
+building	terrace	Area	 A single way used to define the outline of a linear row of residential dwellings, each of which normally has its own entrance, which form a terrace (row-house in North American English). Consider defining each dwelling separately using 'house'.	Terraced housing.png
+building	houseboat	Area	 A boat used primarily as a home	Houseboat- Dal Lake, srinagar Kashmir.JPG
+building	static_caravan	Area	 A mobile home (semi)permanently left on a single site	67elcona.JPG
+Commercial
+building	 commercial	Area	 A building where non-specific commercial activities take place; use office=* to describe the type of office. Consider tagging the area using landuse=commercial. Use 'retail' if the building consists primarily of shops.	Buildingoffices.png
+building	industrial	Area	 A building where some industrial process takes place. Use warehouse if the purpose is known to be primarily for storage/distribution. Consider using landuse=industrial for the surrounding area and the proposed industrial=* tag to describe the industrial activity.	Eley Industrial Estate1.JPG
+building	retail	Area	 A building primarily used for selling goods are sold to the public; use shop=* to identify the sort of goods sold. Consider use landuse=retail for the surrounding area. How is one meant to indicate that there is also residential accommodation or office use above?	Extensive Retail Mall.jpg
+building	warehouse	Area	 A building primarily used for the storage or goods or as part of a distribution system.	Copenhagen warehouse.jpg
+Civic/amenity
+building	 cathedral	Area	 A building that was built as a cathedral. Used in conjunction with amenity=place_of_worship, religion=* and denomination=* for the cathedral grounds where it is in current use.	Saint Vitus Cathedral in Prague, Czech Republic.jpg
+building	 chapel	Area	 A building that was built as a chapel. Used in conjunction with amenity=place_of_worship, religion=* and denomination=* for the chapel grounds where it is in current use.	Bevillers chapel cemetery.jpg
+building	 church	Area	 A building that was built as a church. Used in conjunction with amenity=place_of_worship, religion=* and denomination=* for the church grounds where it is in current use.	Churchstcl.jpg
+building	 civic	Area	 For any civic amenity, for example amenity=community_centre, amenity=library, amenity=toilets, leisure=sports_centre, leisure=swimming_pool, amenity=townhall etc. Use amenity=* or leisure=* etc to provide further details. See building=public as well.	Scarborough Civic Centre.jpg
+building	hospital	Area	 A building which forms part of a hospital. Use amenity=hospital for the hospital grounds.	Hospital.png
+building	school	Area	 For any generic school buildings. Buildings for specific uses (sports halls etc) should be tagged for their purpose. Use amenity=school for the perimeter of the school grounds.	Convent School's Pippal.JPG
+building	train_station	Area	 A train station building.	Dobrepolje train station.jpg
+building	transportation	Area	 A building related to public transport. You will probably want to tag it with proper tranport related tag as well, such as public_transport=station. Note that there is a special tag for train station buildings - building=train_station.	Kusatsu-Onsen Bus Station.jpg
+building	 university	Area	 A university building. Use amenity=university for the whole university area.	University College Oxford.jpg
+building	 public	Area	 A public building. Don't use amenity=public_building.	Dominion Public Building.JPG
+Other
+building	 barn	Area	 An agricultural building used for storage and as a covered workplace.	EJFrykBarn.jpg
+building	 bridge	Area	 A building used as a bridge. Can also represent a gatehouse for drawbridges. See also bridge=yes for highway=*. Don't use this tag just for for marking bridges (their outlines). For such purposes consider the proposed man_made=bridge.	Ponte Veccio1.JPG
+building	 bunker	Area	 A hardened military building. Also use military=bunker.	Slavonický les, bunkr 01.jpg
+building	cabin	Area	 A cabin is a small, roughly built house usually with a wood exterior and typically found in rural areas.	Koch Cabin.JPG
+building	construction	Area	 Used for buildings under construction. Use construction=* to hold the value for the completed building.	Riga, stavba.jpg
+building	cowshed	Area	 A cowshed (cow barn, cow house) is a a building for housing cows, usually found on farms.	Cowhouse Hrazany2.jpg
+building	 farm_auxiliary	Area	 A building on a farm that is not a dwelling (use 'house' for the farm house).	Horseshoe Barn.jpg
+building	garage	Area	 A garage is a building suitable for the storage of one or possibly more motor vehicle or similar. See building=garages for larger shared buildings.	Two-Car Garage.jpg
+building	garages	Area	 A building that consists of a number of discrete storage spaces for different owners/tenants. See also building=garage.	Landbouwstraat garages.jpg
+building	greenhouse	Area	 A greenhouse is a glass or plastic covered building used to grow plants. Use landuse=greenhouse_horticulture for the area	Greenhouse 1.JPG
+building	hangar	Area	 A hangar is a building used for the storage of airplanes, helicopters or space-craft. Consider adding aeroway=hangar, when appropriate.	IMPA hangar.jpg
+building	hut	Area	 A hut is a small and crude shelter.	Kennedy's hut edit.jpg
+building	roof	Area	 A structure that consists of a roof with open sides, such as a rain shelter, and also gas stations	Preem Karlskrona.jpg
+building	shed	Area	 A shed is a simple, single-storey structure in a back garden or on an allotment that is used for storage, hobbies, or as a workshop.	Elderly Shed.png
+building	stable	Area	 A stable is a building where horses are kept.	Häststall Elfviks gård dec 2008.jpg
+building	sty	Area	 A sty (pigsty, pig ark, pig-shed) is a a building for raising domestic pigs, usually found on farms.	Schweinehütten.jpg
+building	transformer_tower	Area	 A transformer tower is a characteristic tall building comprising a distribution transformer and constructed to provide direct connection to a medium voltage overhead power line. Quite often the power line has since been undergrounded but it may still serve as a substation. See also power=substation.	OesterSkovVejHad.jpg
+building	 yes	Area	 Use this value where it is not possible to determine a more specific value.	
+building	 user defined	Node Area	All commonly used values according to Taginfo, generally building types	
+Additional attributes
+entrance	 yes/main/exit/service/emergency	Node	 An entrance in a building. Replaces the deprecated tag building=entrance.	
+height	 number	NodeArea	 The height of the building in meters.	
+building:levels	 number	NodeArea	 The number of levels (floors) in the building.	
+building:fireproof	 yes/no	NodeArea	 Fire-resistance information.	
+This table is a wiki template with a default description in English. Editable here.
+Craft
+A place producing or processing customised goods. See Crafts for more information.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+craft	 agricultural_engines	Mf node.png Mf area.png	 Planning, and Constructing engines and tools for agricultural use.		Green tractor.jpg
+craft	 basket_maker	Mf node.png Mf area.png	 Producing baskets, often made from Willow.		Basket flein.jpeg
+craft	 beekeeper	Mf node.png Mf area.png	 A place where honey bees are kept for the purposes of securing commodities such as honey, beeswax or pollen.		WPKiW - Skansen - Pszczelarz 01.jpg
+craft	 blacksmith	Mf node.png Mf area.png	 A place where a blacksmith forges tools, horseshoes, etc. from iron.		Kovár pri práci (Velikonocní trhy na Václavském námestí) 055.jpg
+craft	 brewery	Mf node.png Mf area.png	 A brewery is a dedicated building for the making of beer		Brewery.png
+craft	 boatbuilder	Mf node.png Mf area.png	 Planning, and Contructing boats.		Snipa.JPG
+craft	 bookbinder	Mf node.png Mf area.png	 Physically assembling a book from a number of sheets of paper.		Traditional bookbinder.jpg
+craft	 carpenter	Mf node.png Mf area.png	 Workplace or office of Carpenters that work with timber to construct, install and maintain buildings, furniture, and other objects.		Charpentier médiéval.JPG
+craft	 carpet_layer	Mf node.png Mf area.png	 Workplace or office of carpet layers that bring carpet on your floor.		Teppichboden.JPG
+craft	 caterer	Mf node.png Mf area.png	 Workplace or office of one who prepares customized meals for takeout, or provides prepared meals or supplies to a group at social gatherings.		Catering picoplato 001.jpg
+craft	 clockmaker	Mf node.png Mf area.png	 Workplace or office of a clockmaker that is building or repairing clocks but not watches. See also craft=watchmaker		Lichtenwalde4.jpg
+craft	 confectionery	Mf node.png Mf area.png	 A place where the set of food items that are rich in sugar, any one or type of which is called a confection is produced.		Zaunerstollen.jpg
+craft	 dressmaker	Mf node.png Mf area.png	 A place where clothes are created, repaired or altered to fit personal needs.		
+craft	 electrician	Mf node.png Mf area.png	 Workplace or office of an electrician which is a tradesman specialized in electrical wiring of buildings, stationary machines and related equipment.		Szafa elektryczna002.JPG
+craft	 falles	Mf node.png Mf area.png	 Workplace or office of a craftsman or craftwoman of (Valencian) falles.		Fallas 2011 07.JPG
+craft	 gardener	Mf node.png Mf area.png	 Workplace or office of a garden designer or a landscape gardener.		SF Japanese Garden.JPG
+craft	 glaziery	Mf node.png Mf area.png	 A place where residential, commercial, and artistic glass is selected, cutted, installed, replaced, and removed		Glaserei Hundestr.JPG
+craft	 handicraft	Mf node.png Mf area.png	 A place where useful and decorative devices are made completely by hand or using only simple tools		Belarus-Minsk-Exhibition of Traditional Crafts, 3.jpg
+craft	 hvac	Mf node.png Mf area.png	 Workplace or office of an HVAC system designer (Heating, Ventilating, and Air Conditioning)		Northeastern University - air conditioner.JPG
+craft	 insulation	Mf node.png Mf area.png	 Workplace or office of of a person who does thermal insulation in buildings.		
+craft	 jeweller	Mf node.png Mf area.png	 A place where necklaces, rings, brooches, earrings and bracelets and other personal adornments are created or repaired.		
+craft	 locksmith	Mf node.png Mf area.png	 A place where locks and keys are created or repaired.		
+craft	 key_cutter	Mf node.png Mf area.png	 A place where keys can be duplicated from originals.		
+craft	 metal_construction	Mf node.png Mf area.png	 A place where handrails, gates, ramps and similar things from metal are made.		
+craft	 optician	Mf node.png Mf area.png	 A place where lenses for the correction of a person's vision are designed, fitted and dispensed.		
+craft	 painter	Mf node.png Mf area.png	 Workplace or office of a house painter which is a tradesman responsible for the painting and decorating of buildings.		
+craft	 parquet_layer	Mf node.png Mf area.png	 Workplace or office of a parquet layer.		
+craft	 photographer	Mf node.png Mf area.png	 Workplace or office of a person who takes photographs using a camera.		
+craft	 photographic_laboratory	Mf node.png Mf area.png	 A place where photos taken on a film ort digital images are transformed into a more permanent form, often on paper or plastic foil.		
+craft	 plasterer	Mf node.png Mf area.png	 Workplace or office of a tradesman who works with plaster, such as forming a layer of plaster on an interior wall or plaster decorative moldings on ceilings or walls.		
+craft	 plumber	Mf node.png Mf area.png	 Workplace or office of a tradesman who specializes in installing and maintaining systems used for potable (drinking) water, sewage, and drainage.		
+craft	 pottery	Mf node.png Mf area.png	 A place where earthenware, stoneware and porcelain and other ceramic ware is made by potters.		Shop Craft Pottery.png
+craft	 rigger	Mf node.png Mf area.png	 Workplace or office of a person who makes masts, yards, sails, and cordage for sailboats and sailing ships.		
+craft	 roofer	Mf node.png Mf area.png	 Workplace or office of a tradesman who is specialized in roof construction.		
+craft	 saddler	Mf node.png Mf area.png	 A place where saddles or accessories for cars and boats are produced or repaired.		
+craft	 sailmaker	Mf node.png Mf area.png	 Workplace or office of a person who makes and repairs sails for sailboats and sailing ships, typically working on shore in a sail loft.		
+craft	 sawmill	Mf node.png Mf area.png	 A workplace where logs are cut into boards.		
+craft	 scaffolder	Mf node.png Mf area.png	 Workplace or office of a tradesman who builds temporary structure used to support people and material in the construction or repair of buildings and other large structures.		
+craft	 sculptor	Mf node.png Mf area.png	 A place where Sculpture are made.		
+craft	 shoemaker	Mf node.png Mf area.png	 A place where shoes, boots, sandals, clogs and moccasins are created, repaired or altered to fit personal needs. See also shop=shoes for a place where shoes are sold, but not made or altered		
+craft	 stand_builder	Mf node.png Mf area.png	 Workplace of a company that builds stands/booths for fairs.		
+craft	 stonemason	Mf node.png Mf area.png	 A place where rough pieces of rock are shaped into accurate geometrical shapes.		Stonemason.png
+craft	 sun_protection	Mf node.png Mf area.png	 A place where sun protection is made, repaired, or delivered for assembly, especially awnings and shutters.		
+craft	 sweep	Mf node.png Mf area.png	 Workplace or office of a person who cleans chimneys for a living.		
+craft	 tailor	Mf node.png Mf area.png	 A place where clothing is made, repaired, or altered professionally, especially suits and men's clothing.		
+craft	 tiler	Mf node.png Mf area.png	 Workplace or office of a person who lays tiles on floors, swimming pools and such.		
+craft	 tinsmith	Mf node.png Mf area.png	 A tinsmith, or tinner or tinker or tinplate worker. Workplace or office of a person who makes and repairs things made of light-coloured metal, particularly tinware.		
+craft	 upholsterer	Mf node.png Mf area.png	 A place where furniture, especially seats are provided with padding, springs, webbing, and fabric or leather covers.		
+craft	 watchmaker	Mf node.png Mf area.png	 A watchmaker is an artisan who makes and repairs watches. Today due to industrial production they mostly repair watches. For other kinds of clocks see craft=clockmaker		Pocket watch with chain.jpg
+craft	 window_construction	Mf node.png Mf area.png	 Construct windows		
+craft	 user defined	Mf node.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Emergency
+Used to describe the location of emergency facilities and equipment. See Emergency for more information on usage.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+emergency	 ambulance_station	Mf node.png Mf area.png	 An ambulance station is a structure or other area set aside for storage of ambulance vehicles, medical equipment, personal protective equipment, and other medical supplies.		
+Amb station.JPG
+emergency	 defibrillator	Mf node.png	 An Automated External Defibrillator (AED) is a first-aid device that automates the process of diagnosing life-threatening cardiac arrhythmia and performing defibrillation. Previously tagged as emergency=aed or medical=aed.		
+Jt osm defi ibis.jpg
+emergency	 fire_extinguisher	Mf node.png	 A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations.		
+Fire extinguisher ja.jpg
+emergency	 fire_flapper	Mf node.png	 A flapper is a wildland firefighting tool also called a swatter or a beater. It is designed for extinguishing minor fires in rural areas such as heaths.		
+Branddaskere.JPG
+emergency	 fire_hose	Mf node.png	 A fire hose is a high-pressure hose used to carry water or other fire retardant (such as foam) to a fire to extinguish it.		
+IndoorFireHose-non.jpg
+emergency	 fire_hydrant	Mf node.png	 A fire hydrant is an active fire protection measure, and a source of water provided in most urban, suburban and rural areas with municipal water service or other water source to enable firefighters to tap into the municipal water supply to assist in extinguishing a fire.		
+Downtown Charlottesville fire hydrant.jpg
+emergency	 phone	Mf node.png	 An emergency phone is specifically provided for making calls to emergency services and is most often found in a place of special danger.	
+Sosphone.png
+Sos.jpg
+emergency	 ses_station	Mf node.png Mf area.png	 A State Emergency Service is an Australian volunteer organisation that provides emergency help during and after declared (natural or otherwise) disasters.		
+NSW SES Murrumbidgee Region HQ.jpg
+emergency	 siren	Mf node.png	 A siren is a loud noise maker. Most modern ones are civil defense, "air raid" sirens or tornado sirens.		
+Bundesarchiv B 422 Bild-0010, Sirene.jpg
+emergency	 water_tank	Mf node.png	 Stock tank for fire-fighting water.		
+emergency	 user defined	Mf node.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+
+Geological
+Used to describe the geological makeup of an area. See Geological for further information.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+geological	 outcrop	Mf node.png Mf area.png	 An outcrop site is a place where the bedrock or superficial deposits have become locally exposed and are directly accessible to analysis.		
+Buntsandstein.png
+geological	 moraine	Mf node.png Mf area.png	 A moraine is any ice formed accumulation of unconsolidated glacial debris (soil and rock) which can occur in currently glaciated and formerly glaciated regions, such as those areas acted upon by glacial ice.		
+GornerGlacier.jpg
+geological	 palaeontological_site	Mf node.png Mf area.png	 A palaeontological site is a place (or group of physical sites) in which remains of ancient living forms is preserved. Area under the study of the forms of life existing in prehistoric times, as represented by the fossils of plants, animals, and other organisms investigated using the discipline of palaeontology.	
+Palaeontological site.svg
+Giacimento paleontologico villaggio del pescatore duino.jpg
+geological	 user defined	Mf node.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Highway
+Used to describe roads and footpaths. See Highways for further guidance and Restrictions for details of access limitations by vehicle type/ time/ day/ load/ purpose etc.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Roads
+The principal tags for the road network, from most to least important
+
+highway	 motorway	Way	 A restricted access major divided highway, normally with 2 or more running lanes plus emergency hard shoulder. Equivalent to the Freeway, Autobahn, etc..	Rendering-highway motorway neutral.png	Motorway-photo.jpg
+highway	 trunk	Way	 The most important roads in a country's system that aren't motorways. (Need not necessarily be a divided highway.)	Rendering-highway trunk neutral.png	Dscf0444 600.jpg
+highway	 primary	Way	 The next most important roads in a country's system. (Often link larger towns.)	Rendering-highway primary neutral.png	Primary-photo.jpg
+highway	 secondary	Way	 The next most important roads in a country's system. (Often link smaller towns and villages.)	Rendering-highway secondary neutral.png	Meyenburg-L134.jpg
+highway	 tertiary	Way	 The next most important roads in a country's system.	Rendering-highway tertiary neutral.png	OHZ-K28-Bergedorfer Str.jpg
+highway	 unclassified	Way	 The least most important through roads in a country's system - i.e. minor roads of a lower classification than tertiary, but which serve a purpose other than access to properties. (The word 'unclassified' is a historical artefact of the UK road system and does not mean that the classification is unknown; you can use highway=road for that.)	Rendering-highway unclassified.png	Highway unclassified-photo.jpg
+highway	 residential	Way	 Roads which are primarily lined with and serve as an access to housing.	Rendering-highway residential.png	Residential.jpg
+highway	 service	Way Area	 For access roads to, or within an industrial estate, camp site, business park, car park etc. Can be used in conjunction with service=* to indicate the type of usage and with access=* to indicate who can use it and in what circumstances.	Rendering-highway service.png	Alley.jpg
+Link roads
+
+highway	 motorway_link	Way	 The link roads (sliproads/ramps) leading to/from a motorway from/to a motorway or lower class highway. Normally with the same motorway restrictions.	Rendering-highway motorway link.png	
+Dscf0242 600.jpg
+highway	 trunk_link	Way	 The link roads (sliproads/ramps) leading to/from a trunk road from/to a trunk road or lower class highway.	Rendering-highway trunk link.png	Trunk link.jpg
+highway	 primary_link	Way	 The link roads (sliproads/ramps) leading to/from a primary road from/to a primary road or lower class highway.	Rendering-highway primary link.png	
+highway	 secondary_link	Way	 The link roads (sliproads/ramps) leading to/from a secondary road from/to a secondary road or lower class highway.		
+highway	 tertiary_link	Way	 The link roads (sliproads/ramps) leading to/from a tertiary road from/to a tertiary road or lower class highway.		
+Special road types
+
+highway	 living_street	Way	 For living streets, which are residential streets where pedestrians have legal priority over cars, speeds are kept very low and where children are allowed to play on the street.	Living street osm.png	Spielstrasse.jpg
+highway	 pedestrian	Way Area	 For roads used mainly/exclusively for pedestrians in shopping and some residential areas which may allow access by motorised vehicles only for very limited periods of the day. To create a 'square' or 'plaza' create a closed way and tag as pedestrian and also with area=yes.	Pedestrian with area osm.png	Calle arenal.jpg
+highway	 track	Way	 Roads for agricultural or forestry uses etc, often rough with unpaved/unsealed surfaces. In countries where most roads are unpaved, you should still use the main trunk/primary/secondary/tertiary/unclassified values, making sure to also tag the surface type. Use surface=* or tracktype=* for tagging to describe the surface.	Rendering-highway track.png	Frühlingslandschft Aaretal Schweiz.jpg
+highway	 bus_guideway	Way	 A busway where the vehicle guided by the way (though not a railway) and is not suitable for other traffic. Please note: this is not a normal bus lane, use access=no, psv=yes instead!		
+Bus track.jpg
+highway	 raceway	Way	 A course or track for (motor) racing	Rendering-highway-raceway-mapnik.png	Raceway.jpg
+highway	 road	Way	 A road where the mapper is unable to ascertain the classification from the information available. This is intended as a temporary tag to mark a road until it has been properly surveyed. Once it has been surveyed, the classification should be updated to the appropriate value.		Road.png
+Paths
+highway	 footway	Way	 For designated footpaths; i.e., mainly/exclusively for pedestrians. This includes walking tracks and gravel paths. If bicycles are allowed as well, you can indicate this by adding a bicycle=yes tag. Should not be used for paths where the primary or intended usage is unknown. Use highway=pedestrian for pedestrianised roads in shopping or residential areas and highway=track if it is usable by agricultural or similar vehicles.	Rendering-highway footway.png	Dscf0487 600.jpg
+highway	 bridleway	Way	 For horses. Equivalent to highway=path + horse=designated.	Rendering-highway bridleway.png	Bridleway-reitweg-de.jpg
+highway	 steps	Way	 For flights of steps (stairs) on footways. Use with step_count=* to indicate the number of steps	Rendering-highway steps.png	Steps.jpg
+highway	path	Way	 A non-specific or shared-use path. Use highway=footway for paths mainly for walkers,  highway=cycleway for one also usable by cyclists, highway=bridleway for ones available to horses as well as walkers and highway=track for ones which is passable by agriculture or similar vehicles.	Path osm.png	GuideFootPathCycleYes.jpg
+When sidewalk (or pavement) is tagged on the main roadway (see Sidewalks)
+
+sidewalk	 both / left / right / yes / no	Way	 Specifies that the highway has sidewalks on both sides, on one side or no sidewalk at all		Sidewalk and zebra-crossing.jpg
+When cycleway is drawn as its own way (see Bicycle)
+
+highway	 cycleway	Way	 For designated cycleways. Add foot=* only if default-access-restrictions do not apply.	Cycleway osm.png	Separated cycleway with traffic sign
+When cycleway or lane is tagged on the main roadway (see Bicycle)
+
+cycleway	 lane	Way	 A lane is a route that lies within the roadway		Cycle trackinroad.jpg
+cycleway	 opposite	Way	 Used on ways with oneway=yes where it is permitted to cycle in both directions (only in countries where it is legally permitted).		120px-Zusatzzeichen 1000-33.svg.png
+cycleway	 opposite_lane	Way	 Used on ways with oneway=yes that have a cycling lane going the opposite direction of normal traffic flow (a "contraflow" lane)		Fr-C24a ex3-Conditions particulieres par voie-velo.gif
+cycleway	 track	Way	 A track is a route that is separate from the road.+oneway=yes if needed.	Mapping-Features-Cycleway-track.PNG	Cycle nexttoroad.jpg
+cycleway	 opposite_track	Way	 Used on ways with oneway=yes that have a cycling track going the opposite direction of normal traffic flow		
+cycleway	 shared	Way	 Cyclists share space with other traffic on this highway.		
+cycleway	 share_busway	Way	 There is a bus lane that cyclists are permitted to use.		
+cycleway	 shared_lane	Way	 Cyclists share a lane with motor vehicles, but there are markings indicating that they should share the lane with motorists.		
+Lifecycle
+highway	 proposed	Way	 For planned roads, use with proposed=* and also proposed=* with a value of the proposed highway value.	Planned mapnik.png	
+highway	 construction	Way	 For roads under construction. Use construction=* to hold the value for the completed road.	Highway construction 200805041655.png	12Jan05 04.jpg
+Attributes
+abutters	 commercial/ industrial/ mixed/ residential/ retail etc.	Way	 See Key:abutters for more details.		Dscf1376-600.jpg
+ford	 yes	Node Way	 The road crosses through stream or river, vehicles must enter any water.		Map feature ford.jpg
+ice_road	yes	Way	 A highway is laid upon frozen water basin, definitely doesn't exist in summer.		
+incline	 Number %/°	Node Way	 Incline steepness as percents ("5%") or degrees ("20°"). Positive/negative values indicate movement upward/downwards in the direction of the way.		
+junction	 roundabout	Way Closed way	 This automatically implies oneway=yes, the oneway direction is defined by the sequential ordering of nodes within the Way. This applies on a way, tagged with highway=* already.	Mapping-Features-Roundabout-Simple.png	Roundabout.jpg
+lanes	 number	Way	 The number of traffic lanes for general purpose traffic, also for buses and other specific classes of vehicle.		
+NLEx 6 Lanes.jpg
+lit	 yes/no	NodeWayArea	 Street lighting		
+Berlin speer-leuchte.jpg
+motorroad	 yes / no	Way Node	 The motorroad tag is used to describe highways that have motorway-like access restrictions but that are not a motorway.		120px-Zeichen 331.svg.png
+mountain_pass	 yes	Node	 The highest point of a mountain pass.		Mountain pass.jpg
+mtb:scale	 0-6	Way	 Applies to highway=path and highway=track. A classification scheme for mtb trails (few inclination and downhill).		S3.jpg
+mtb:scale:uphill	 0-5	Way	 A classification scheme for mtb trails for going uphill if there is significant inclination.		
+mtb:scale:imba	 0-4	Way	 The IMBA Trail Difficulty Rating System shall be used for bikeparks. It is adapted to mtb trails with artificial obstacles.		
+mtb:description	 Text	Way	 Applies to highway=path and highway=track. A key to input variable infos related to mtbiking on a way with human words		
+overtaking	yes/ no/ both/ forward/ backward	Way	 Specifying sections of roads where overtaking is legally forbidden.		
+passing_places	yes	Way	 A way which has frequent passing places		
+sac_scale	 hiking / mountain_hiking / demanding_mountain_hiking / alpine_hiking / demanding_alpine_hiking / difficult_alpine_hiking	Way	 Applies to highway=path and highway=footway. A classification scheme for hiking trails.		Mountain hiking.jpg
+service	 alley/ driveway/ parking_aisle etc.	Way	 See Key:service for more details.		
+Seattle - alley north from S Jackson between Western & 1st - A.jpg
+surface	 paved / unpaved / asphalt / concrete / paving_stones / cobblestone / metal / wood / grass_paver / gravel / pebblestone / grass / ground / earth / dirt / mud / sand	Way	 See Key:surface for more details.		
+tactile_paving	 yes / no	Node Way Area	 A paving in the ground to be followed with a blindman's stick.	 Not to be rendered on standard maps.	
+Tactile paving.jpg
+tracktype	 grade1/ grade2/ grade3/ grade4/ grade5	Way	 To describe the quality of the surface. See Key:tracktype and Key:surface for more information.	
+Mapnik-tracktype-grade1.png
+Surface grade1.jpg
+traffic_calming	 yes/ bump/ hump/ cushion/ table etc.	Node Way	 See Key:traffic_calming for more details.		
+trail_visibility	 excellent / good / intermediate / bad / horrible / no	Way	 Applies to highway=path, highway=footway, highway=cycleway and highway=bridleway. A classification for hiking trails visibility		
+winter_road	yes	Way	 A highway functions during winter, probably can't be driven in summer.		Anuisk bilibino sever66.jpg
+Other features
+highway	 bus_stop	Node	 A small bus stop. Can be mapped more rigorously using public_transport=stop_position for the position where the vehicle stops and public_transport=platform for the place where passengers wait. See public_transport=* for more details.	
+Bus.gif
+Bus prumyslova.jpg
+highway	 crossing	Node	 Pedestrians can cross a street here; e.g., zebra crossing		Zebra-crossing sm.jpg
+highway	 emergency_access_point	Node	 Sign number which can be used to define your current position in case of an emergency. Use with ref=NUMBER_ON_THE_SIGN	
+Emergency access point.png
+Anfahrpunkt HP 108.jpg
+highway	 escape	Way Area	 Emergency lane beside long descending slopes for trucks and other vehicles to stop safely after brake failure.	 Not decided yet, but a white/red checkered line has been proposed.	A7-Notbremsweg.jpg
+highway	 give_way	Node	 A "give way," or "Yield" sign	
+UK traffic sign 501.svg
+Give way.jpg
+emergency	 phone	Node	 A calling device can be used to tell on your current position in case of an emergency. Use with ref=NUMBER_ON_THE_SIGN	
+Sosphone.png
+Borne SOS.jpg
+highway	 mini_roundabout	Node	 Similar to roundabouts, but at the center there is either a painted circle or a fully traversable island. In case of an untraversable center island, junction=roundabout should be used.
+Rendered as anti-clockwise by default direction=anticlockwise. To render clockwise add the tag direction=clockwise.
+
+Mapping-Features-Mini-Roundabout.png	Mini-roundabout.jpg
+highway	 motorway_junction	Node	 Indicates a junction (UK) or exit (US). ref=* should be set to the exit number or junction identifier. (Some roads - e.g., the A14 - also carry junction numbers, so the tag may be encountered elsewhere despite its name)	
+Osmarender-motorway-junction.png
+Dscf0242 600.jpg
+highway	passing_place	Node	 The location of a passing space		Ausweichstelle.jpg
+highway	 rest_area	Node Area	 Place where drivers can leave the road to rest, but not refuel.	Rendering-highway-services-mapnik.jpg	Wentworth terrain.jpg
+highway	 speed_camera	Node	 A fixed road-side or overhead speed camera.	
+Speed trap 16x16.png
+Speed camera.jpg
+highway	street_lamp	Node	 A street light, lamppost, street lamp, light standard, or lamp standard is a raised source of light on the edge of a road, which is turned on or lit at a certain time every night		Litpath.jpg
+highway	 services	Node Area	 A service station to get food and eat something, often found at motorways	Rendering-highway-services-mapnik.jpg	De lucht.jpg
+highway	 stop	Node	 A stop sign	
+Stop.png
+STOP sign.jpg
+highway	 traffic_signals	Node	 Lights that control the traffic	Rendering-traffic singals.jpg	Ampel.jpg
+highway	 turning_circle	Node	 A turning circle is a rounded, widened area usually, but not necessarily, at the end of a road to facilitate easier turning of a vehicle. Also known as a cul de sac.	Mapping-Features-Turning-Circle.png	Turning circle.jpg
+highway	 User Defined	Node Way	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Historic
+Used to describe various archeological sites, wrecks, ruins, castles and ancient buildings. See Historic for further details on usage.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+historic	 archaeological_site	Node Area	 A place in which evidence of past activity is preserved	
+Tourist archaeological2.glow.16.png
+Dscf0105 600.jpg
+historic	 aircraft	Node Area	 A decommissioned aircraft which generally remains in one place		Historic aircraft monki.JPG
+historic	 battlefield	Node Area	 The site of a battle or military skirmish in the past. This could be on land or at sea.		
+Fort Donelson river battery (1).jpg
+historic	 boundary_stone	Node	 A historic boundary stone usually found along the way.		
+Boundary stone St Brelade and St Peter, Jersey.jpg
+historic	 castle	Node Area	 Castles are (often fortified) buildings from medieval and modern times. Other languages		Dscf0226 600.jpg
+historic	 cannon	Node	 A historic/retired cannon. Usually found at on forts or battlefields.		
+Muzzle loading cannons at the Swedish Naval Museum (6648150909).jpg
+historic	 city_gate	Node Area	 A Wikipedia city gate (or town gate) is a gate within a city wall.		Spaarnwouder- of Amsterdamse poort.jpg
+historic	 citywalls	Way Area	 A Wikipedia defensive wall is a fortification used to protect a city or settlement from potential aggressors.		Delitzsch Stadtmauer.jpg
+historic	 farm	Node Area	 A historical farm, kept in it's original state.		Memorial-Day-2003.jpg
+historic	 fort	Node Area	 A military fort - distinct from a castle as it is generally more modern		Komárom Fortress 03.jpg
+historic	 manor	Node Area	 Historic Wikipedia manors / Wikipedia mansions		Gut Panker Herrenhaus.jpg
+historic	 memorial	Node Area	 Much like a monument, but smaller. Might range from a WWII memorial to a simple plate on a wall.	
+Tourist memorial.p.20.png
+CIMG4191.JPG
+historic	 monument	Node Area	 An object, especially large and made of stone, built to remember and show respect to a person or group of people. Other languages		
+Monument.JPG
+historic	 ruins	Node Area	 Remains of structures that were once complete, but have fallen into partial or complete disrepair. If the type of original structure is known or apparent it can be described using ruins=*, e.g. ruins=castle.
+Alternative tagging is historic=castle, ruins=yes.
+See the proposal and discussion at Proposed_features/ruins for ruins of historic buildings.
+
+Dscf1813-800.jpg
+historic	 rune_stone	Node	 A Wikipedia runestone is typically a raised stone with a runic inscription.		
+U 240, Lingsberg.JPG
+historic	 ship	Node Area	 A decommissioned ship or submarine		Aurora Cruiser Museum StPetersburg.JPG
+historic	 tree_shrine	Node	 A single tree of a religious figure mounted onto a tree.		Tree Shrine - Giritzer, Mautern an der Donau, Österreich - 02.JPG
+historic	 wayside_cross	Node Area	 A historical (usually christian) cross. Frequently found along the way in Southern Germany, Austria and probably elsewhere.		
+Wegkreuz.jpg
+historic	 wayside_shrine	Node Area	 A historical shrine often showing a religious depiction. Frequently found along the way in Southern Germany, Austria and probably elsewhere.		2003-10-11 tanner moor 36.JPG
+historic	 wreck	Node Area	 Nautical craft that has unintentionally been sunk or destroyed.		LovilleWreckRedsea.jpg
+historic	 user defined	Node Area	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Landuse
+Used to describe the purpose for which and area of land is being used. See Landuse for more information on the use of this tag.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+landuse	 allotments	Mf node.png Mf area.png	 A piece of land given over to local residents for growing vegetables and flowers.	
+Landuse-allotments.png
+Schrebergaerten.jpg
+landuse	 basin	Mf node.png Mf area.png	 An area of water that drains into a river.
+Together with basin=* for stormwater/rainwater infiltration/detention/retention basins.
+Other languages.	
+Landuse-basin.png
+Wasserspeicher an Essens höchstem Punkt DSCF1228.jpg
+landuse	 brownfield	Mf node.png Mf area.png	 Describes land scheduled for new development where old buildings have been demolished and cleared	
+Landuse-brownfield.png
+Former Brickworks ... - geograph.org.uk - 56268.jpg
+landuse	 cemetery	Mf area.png	 Place for burials. You can add religion=* (values listed in the place of worship page). Smaller places (e.g. with a church nearby) may use amenity=grave_yard instead.	
+Landuse-cemetery.png
+Cemetery-photo.JPG
+landuse	 commercial	Mf node.png Mf area.png	 Predominantly offices, business parks, etc.	
+Landuse-commercial.png
+Cambourne Business Park - geograph.org.uk - 15908.jpg
+landuse	conservation	Mf area.png	 Protected areas (Not approved) Alternate tagging of same thing: boundary=protected_area, protected_area=*	Landuse conservation.png	
+landuse	construction	Mf node.png Mf area.png	 "Under construction" site, should become something different once the construction is finished	Rendering-landuse-construction-mapnik.png	
+Landuse construction.jpg
+landuse	 farm	Mf area.png	 An area of farmland used for tillage and pasture (animals, crops, vegetables, flowers, fruit growing).	
+Rendering-landuse-farm-mapnik.png
+Farm landuse (with livestock).jpg
+landuse	 farmland	Mf area.png	 Synonyme for farm, used in JOSM because farm was considered ambiguous. Farmland has been used more often as of 2013-02-21 (610 472 tags vs 453 935). See ticket #1579.		
+Rye field.jpg
+landuse	 farmyard	Mf area.png	 An area of land with farm buildings like farmhouse, dwellings, farmsteads, sheds, stables, barns, equipment sheds, feed bunkers, etc. plus the open space in between them and the shrubbery/trees around them.		
+Farmyard.jpg
+landuse	 forest	Mf node.png Mf area.png	 Managed forest or woodland plantation (Other languages).	
+Landuse-forest.png
+Forest.jpg
+landuse	 garages	Mf area.png	 One level buildings with boxes commonly for cars, usually made of brick and metal. Usualy this area belong to garage cooperative with own name, chairman, budget, rules, security, etc.		
+Garages.jpg
+landuse	 grass	Mf node.png Mf area.png	 For areas covered with grass. Consider landuse=meadow for meadow and landuse=pasture for pasture. Note that this is actually a Landcover tag, not a landuse tag and there is a proposal to deprecate it.	
+Mapnik landuse grass .png
+Grasss.jpg
+landuse	 greenfield	Mf node.png Mf area.png	 Describes land scheduled for new development where there have been no buildings before. A greenfield is scheduled to turn into a construction site		
+landuse	 greenhouse_horticulture	Mf area.png	 Area used for growing plants in greenhouses	
+Greenhouserendering.png
+Greenhouses westland.jpg
+landuse	 industrial	Mf node.png Mf area.png	 Predominantly workshops, factories or warehouses	
+Landuse-industrial.png
+Rehuraisio feed plant in Oulu 2008 001.jpg
+landuse	 landfill	Mf node.png Mf area.png	 Place where waste is dumped. Other languages	
+Rendering-landuse-landfill-mapnik.png
+Landfill.jpg
+landuse	 meadow	Mf node.png Mf area.png	 An area of land primarily vegetated by grass and other non-woody plants, usually mowed for making hay (Other Languages).	
+Landuse Meadow.png
+Mottey.jpg
+landuse	 military	Mf node.png Mf area.png	 For land areas owned/used by the military for whatever purpose	Rendering-landuse-military-mapnik.png	
+REUNION 2007 04.jpg
+landuse	 orchard	Mf node.png Mf area.png	 intentional planting of trees or shrubs maintained for food production	Orchard.png	
+Altesland2.jpg
+landuse	 pasture	Mf node.png Mf area.png	 (Proposed in Proposed_features/pasture:) An area of land primarily vegetated by grass, used for grazing.		
+Pasture with shelter.jpg
+landuse	 plant_nursery	Mf area.png	 intentional planting of plants maintaining for the production of new plants	Treenursery.png	
+Cutchogue - Oregon Road - Plant Nursery.jpg
+landuse	 quarry	Mf node.png Mf area.png	 Surface mineral extraction (Other languages)	
+Rendering-landuse-quarry-mapnik.png
+Steinbruch.jpg
+landuse	 railway	Mf area.png	 Area for railway use, generally off-limits to the general public	Rendering-landuse-railway-mapnik.png	
+OahuRailway&LandCo-switchtrack-signal.JPG
+landuse	 recreation_ground	Mf node.png Mf area.png	 An open green space for general recreation, which may include pitches, nets and so on, usually municipal but possibly also private to colleges or companies	
+Landuse-recreation ground.png
+landuse	 reservoir	Mf node.png Mf area.png	 Stores water, may be covered or uncovered; for a covered reservoir see also man_made=reservoir_covered (Other languages). See water=reservoir for alternative tagging.	
+Landuse-reservoir.png
+Amagase Dam.jpg
+landuse	 residential	Mf node.png Mf area.png	 Predominantly houses or apartment buildings	
+Rendering-area-landuse-residential.png
+Lawrenceville.jpg
+landuse	 retail	Mf node.png Mf area.png	 Predominantly shops	
+Landuse-retail.png
+Trocadero - London 1.jpg
+landuse	 salt_pond	Mf area.png	 A place where sea water is evaporated to extract its salt		
+Salt ponds SF Bay (dro!d).jpg
+landuse	 village_green	Mf node.png Mf area.png	 An area of common land, usually grass, in the centre of a village (quintessentially English - defined separately from 'common land' under the Commons Registration Act 1965 and the Commons Act 2006).	
+Landuse-village green.png
+landuse	 vineyard	Mf node.png Mf area.png	 A piece of land where grapes are grown.	
+Landuse-vineyard.png
+739px-Grape vines.jpg
+landuse	 user defined	Mf node.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Leisure
+Used to tag leisure and sports facilities. See Leisure for a general introduction.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+leisure	 beach_resort	Node Area	 To mark the boundary of a managed beach.		
+Beach resort.jpg
+leisure	 bird_hide	Node Area	 A place to observe birds.		
+Belvide-gazebo.jpg
+leisure	 common	Node Area	 An area where the public can walk anywhere (UK)	
+Rendering-area-leisure-common.png
+leisure	 dance	Node Area	 A place to go dancing.		
+Webster Hall by David Shankbone.jpg
+leisure	 dog_park	Node Area	 Designated area, with or without a fenced boundary, where dog-owners are permitted to exercise their pets unrestrained		
+DogPark.jpg
+leisure	 firepit	Node Area	 A permanent location or structure to host campfires, bonfires, etc		
+Camp site.jpg
+leisure	 fishing	Node Area			
+Angler.jpg
+leisure	 garden	Node Area	 Place where flowers and other plants are grown in a decorative and structured manner or for scientific purposes.	
+Rendering-area-leisure-garden.png
+SF Japanese Garden.JPG
+leisure	 golf_course	Node Area	 The outline of a golf course. The node form may be used to place an icon within the course. This tag implies sport=golf.	
+Rendering-area-leisure-golf course.png
+Spanish-Bay-First-Tee.jpg
+leisure	 hackerspace	Node Area	 A place where people with common interests, often in computers, technology, science, digital art or electronic art, can meet, socialize and/or collaborate.		
+Protospace, a Hackerspace.jpg
+leisure	 ice_rink	Node Area	 A place where you can skate or play ice hockey.		
+Icerink2.jpg
+leisure	 marina	Node Area	 For mooring leisure yachts and motor boats		
+Marina.jpg
+leisure	 miniature_golf	Node Area	 A place or area that you can play miniature golf.		
+1st course of bahn golf.jpg
+leisure	 nature_reserve	Node Area	 Protected area of importance for wildlife, flora, fauna or features of geological or other special interest.	
+Nature reserve2.png
+Black Opal Spring in Biscuit Basin.JPG
+leisure	 park	Node Area	 Open, green area for recreation, usually municipal.	
+Rendering-area-leisure-park.png
+Arena Roundhay 07.jpg
+leisure	 pitch	Node Area	 e.g. a field for playing football/soccer, cricket, baseball sports, and skate parks. To describe what kind of sport(s) use sport=*.	
+Rendering-area-leisure-pitch.png
+County-Ground-STFC-pitch-2006.JPG
+leisure	 playground	Node Area	 Playground for little children.	
+Rendering-area-leisure-playground.png
+Playground.p.20.png
+Spielplatz.jpg
+leisure	 slipway	Node	 Boats can be launched here	
+Osmarender slipway.png
+800px-Swanage lifeboat on its slipway 1.JPG
+leisure	 social_club	Node Area	 A place where members meet for activities or relaxation, such as a hunting club.		
+HoustonClubEntrance.JPG
+leisure	 sports_centre	Node Area	 A distinct facility where a range of sports take place within an enclosed area. To describe what kind of sport(s) use sport=*.	
+Rendering-area-leisure-sports centre.png
+Western Lesiure Centre Cardiff.JPG
+leisure	 stadium	Node Area	 A major sports arena with substantial tiered seating. To describe what kind of sport(s) use sport=*.	
+Rendering-area-leisure-stadium.png
+Notre-dame-stadium.jpg
+leisure	 swimming_pool	Node Area	 A swimming pool, see also Proposed_features/Swimming_pool and Tag:amenity=swimming_pool		
+Pool i.jpg
+leisure	 track	Node Way	 e.g. running, cycle-racing, greyhound, horses. To describe what kind of sport(s) use sport=*.	
+Rendering-area-leisure-track.png
+Jahnkampfbahn hamburg.jpg
+leisure	 water_park	Node Area	 Amusement area with water slides, recreational swimming pools and dressing rooms.		
+Caribe01.jpg
+leisure	 wildlife_hide	Node Area	 A place to observe wildlife. See also leisure=bird_hide.		
+Wildlife Hide, Uath Lochan - geograph.org.uk - 707260.jpg
+leisure	 user defined	Node Way Area	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Man Made
+A tag for identifying man made (artificial) structures added to the landscape. See Man-made for an introduction.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+man_made	 adit	Node Area	 From Wikipedia: An adit is a type of entrance to an underground mine which is horizontal or nearly horizontal		
+Adit-icon.jpg
+man_made	 beacon	Node	 Structures for signalling on land and sea.		
+TowerBeacon.jpg
+man_made	 breakwater	Way Area	 Protects a shore or harbour from the sea and waves		
+Breakwater.JPG
+man_made	 bunker_silo	Node Area	 Open-sided structure to store something. It can be used with vehicles to fill and empty it.		
+Empty bunker silo in Nebraska.jpg
+man_made	 campanile	Way Area	 A free standing bell tower, typically near a church. 
+See also man_made=tower with tower:type=bell_tower.		
+Klockstapel 01.jpg
+man_made	 chimney	Node	 Large chimney for exhaustion.
+For attached mobile phone base stations see communication:mobile_phone=yes
+
+Schwerin Wuestmark Heizkraftwerk Schwerin-Sued.JPG
+man_made	 crane	Node Area	 A stationary, permanent crane, such as those at docks		
+Ladebruecke IMGP2656 osm.jpg
+man_made	 cutline	Way	 Used to mark cut lines in forests.		
+Cutline.jpg
+man_made	 clearcut	Node Area	 Area, where most or all trees are uniformly cut down. Used in combination with natural=scrub		
+Clearcutting-Oregon.jpg
+man_made	 embankment	Way	 A raised bank to carry a road, railway, or canal across a low-lying or wet area.	
+Cliff2.png
+Railway embankment.jpg
+man_made	 firepit	Node Area	 deprecated. For campfires and firepits, see leisure=firepit		
+Camp site.jpg
+man_made	 flagpole	Node	 A long pole built to hold a flag		
+Genova-Quarto dei Mille.JPG
+man_made	 gasometer	Way Area	 A gasometer is a large storage container for gas.		
+Gasometer in East London.jpg
+man_made	 groyne	Way Area	 A rigid hydraulic structure perpendicular to a coastline or a riverbank intended to interrupt longshore sediment transport. See also: man_made=breakwater		
+Schobuellbuhne042006.jpg
+man_made	 kiln	Node Area	 A thermally insulated chamber in which temperature is controlled in order to change the state of the item placed inside, usually though the process of burning, baking, drying or smelting.	
+Kiln.svg
+Charcoal-kiln.jpg
+man_made	 lighthouse	Node	 Sends out a light beam to guide ships	
+Rendering-man made-lighthouse-mapnik.png
+Chania lighthouse A.jpg
+man_made	 mast	Node	 Mast is a vertical structure built to hold for example antennas		
+Mobile phone base station 2010 12 30 165211 PC304165.jpg
+man_made	 mineshaft	Node Area	 A vertical tunnel		
+Mineshaft.jpg
+man_made	 monitoring_station	Node Area	 A station that monitor something		
+An Air Quality Monitoring Station above the M42 - geograph.org.uk - 210181.jpg
+man_made	 petroleum_well	Node	 A boring through the earth's surface that is designed to find and produce petroleum oil		
+West Texas Pumpjack.JPG
+man_made	 pier	Way Area	 A "bridge into the ocean", usually for recreation	
+Rendering-area-man made-pier.png
+Poland. Gmina Jedwabno. Narty Lake 001.JPG
+man_made	 pipeline	Way	 A pipe for carrying various fluids, such as water, gas, sewage		
+Pipeline.jpg
+man_made	 reservoir_covered	Node Area	 A covered water reservoir		
+Reservoir covered.jpg
+man_made	 silo	Node Area	 A silo is a storage container for bulk material, often grains such as corn or wheat.		
+Silo.jpg
+man_made	 snow_fence	Way	 A snow fence is a solid fence-like structure built across steep slopes to reduce risk and severity of (snow) avalanches. Usually made of steel, sloping outwards, and trussed underneath. Sometimes refered to as a snow shed.		
+Verbauung Tanngrindel.JPG
+man_made	 snow_net	Way	 A snow net netting fence built across steep slopes to reduce risk and severity of (snow) avalanches. They consist of a net made of steel cables, held up by posts. Sometimes refered to as an Avalanche net.		
+man_made	 storage_tank	Node Area	 A tank used for storage of liquids or gases.		
+Gasometer.jpg
+man_made	 surveillance	Node Area	 To mark places and buildings monitored by public or private camera	
+Surveillance.png
+Three Surveillance cameras.jpg
+man_made	 survey_point	Node	 Triangulation pillars, geodetic vertices, and fixed equipment used by topographers (e.g. DGPS radio stations)		
+Dscf1805-800.jpg
+man_made	 tower	Node Area	 A tall and often lean building or structure e.g. telecoms. Please also add a tower:type=* if possible. Also see historic=* below.		
+Dscf0625-800.jpg
+man_made	 wastewater_plant	Node Area	 Facilities used to treat wastewater (known as sewage in some countries)	
+Wastewater.jpg
+Hall Lane Sewage Farm - geograph.org.uk - 69284.jpg
+man_made	 watermill	Node Area	 Watermill, mostly ancient and out of order		
+Belzig Springbachmuehle1.JPG
+man_made	 water_tower	Node Area	 A tower to store water in, usually found on hills beside or in a town	
+Tower water.p.20.png
+Lanstroper Ei IMGP8117 osm.jpg
+man_made	 water_works	Node Area	 A place where drinking water is found and applied to the local waterpipes network.		
+Water treatment - geograph.org.uk - 231374.jpg
+man_made	 water_well	Node Area	 A water well is an excavation or structure created in the ground by digging, driving, boring or drilling to access groundwater in underground aquifers.		
+Water well.jpg
+man_made	 windmill	Node Area	 Windmill, mostly ancient and out of order, see power=generator in combination with generator:source=wind for modern wind turbines	
+Rendering-man made-windmill-mapnik.png
+Willesbourgh Windmill, Ashford, Kent.jpg
+man_made	 works	Node Area	 Industrial building to produce something		
+Dscf0579-800.jpg
+building	 yes	Area	 General tag for buildings - see building=* for more information.	
+Rendering-area-building-yes.png
+Lipsk - House 02.jpg
+man_made	 user defined	Node Way Area	All commonly used values to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Military
+Used for facilities and land used by the military, including the Navy, Army, Airforce and Marines. See Military for an introduction.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+military	 airfield	Node Area	 A place where military planes take off and land		
+Dscf1158 600.jpg
+military	 bunker	Node Area	 Buildings, often build from concrete, to stand even heavier fire. Also WW2 pillboxes.		
+Bunker no13.jpg
+military	 barracks	Node Area	 Buildings where soldiers live and work.	Key military.JPG	
+Oulu barracks Jul-Aug2008 001.jpg
+military	 checkpoint	Node Area	 Place of a possible access to a restricted or secured area, where civilian visitors and vehicles will be controled by a military authority.		
+Checkpoint Charlie
+military	 danger_area	Node Area	 Usually a large marked area around something like a firing range, bombing range, etc which can be an exclusion zone.	
+Danger.p.30.png
+Edge of the Danger Area - geograph.org.uk - 1298659.jpg
+military	 naval_base	Node Area	 A naval base		
+Kidd class vs Spruance class.jpg
+military	 obstacle_course	Way Area	 A military obstacle course		
+US Navy 020423-N-6237W-001 SWAT team training.jpg
+military	 range	Node Area	 Where soldiers have practice with their weapons (firing, bombing, artillery, ...).		
+Bundeswehr shooting M16.jpg
+military	 training_area	Area	 An area where soldiers train and weapons or other military technology are experimented with or are tested.		
+Truppenuebungsplatz Warnschild.jpg
+military	 user defined	Node Area	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Natural
+Used to describes natural physical land features, including ones that have been modified by humans. See Natural for an introduction.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Vegetation related
+natural	 bare_rock	Area	 An area with sparse or no vegetation, so that the bedrock becomes visible.		
+Coastal rock formation.jpg
+natural	 fell	NodeArea	 Bare upper lying uncultivated land principally covered with grass and often grazed.		
+PathSnowmobile.jpg
+natural	 grassland	Area	 Where vegetation is dominated by grasses (Poaceae) and other herbaceous (non-woody) plants, except for ornamental grass (see landuse=grass), mowing for hay, etc. (see landuse=meadow) and grazing (see landuse=pasture)	
+Natural-Grassland.png
+Surface grass.jpg
+natural	 heath	NodeArea	 Bare lower lying uncultivated land with bushes but little or no tree cover.
+Note. This is not for parks whose name contains the word "heath"
+
+Rendering-area-natural-heath-yellow.png
+Lüneburger Heide 080.jpg
+natural	 mud	NodeArea	 (Other languages) Undocumented tag. Maybe see natural=wetland + wetland=mud?	
+Rendering-natural-mud-mapnik.png
+Death 12 bg 082303.jpg
+natural	 sand	NodeArea	 Ground coverage of mostly silica particles, with no or very sparse vegetation. See natural=beach as well.	
+Rendering-area-sand.png
+Kalabrien Ricadi Sandwellen 2129.jpg
+natural	 scrub	NodeArea	 Uncultivated land covered with bushes or stunted trees	
+Rendering-area-natural-scrub.png
+Starr 010831-0015 Morella faya.jpg
+natural	 stone	Node	 Freestanding stone; e.g., glacial erratic		
+Big rock at saynatsalo.jpg
+natural	 tree	Node	 Lone or significant trees.	
+Tree2.png
+Tree.jpg
+natural	 tree_row	Way	 Line of trees.		
+Row of Poplar Trees - geograph.org.uk - 242206.jpg
+natural	 wetland	NodeArea	 Waterlogged area (on Wikipedia)	
+Rendering-area-natural-marsh-osmarender.png
+Vatmark.jpg
+natural	 wood	NodeArea	 Woodland where timber production does not dominate use. Be aware of landuse=forest.	
+Rendering-area-natural-wood.png
+Biogradska suma.jpg
+Water related
+natural	 bay	NodeArea	 A bay, a large body of water partially enclosed by land but with a wide mouth. (Other languages)		
+natural	 beach	NodeArea	 A beach, a flat area of sand, gravel or pebble next to water (Other languages)	
+Rendering-area-natural-beach.png
+Beach.jpg
+natural	 coastline	Way	 The mean high water spring line between the sea and land (with the water of on the right side of the way.)	
+Rendering-area-natural-coastline.png
+Coastline.jpg
+natural	 spring	Node	 A place where ground water flows naturally from the ground (Other languages)	
+Spring.p.5.png
+La Sorgue, Fontaine-de-Vaucluse.JPG
+natural	 water	NodeArea	 Lakes, etc.	
+Rendering-area-natural-water.png
+Natural water.jpg
+Mountains related
+natural	 arete	Way	 An arête, a thin, almost knife-like, ridge of rock which is typically formed when two glaciers erode parallel U-shaped valleys.		Arête nord du Rateau.jpg
+natural	 cave_entrance	NodeArea	 The entrance to a cave.	
+Cave-entrance-mapnik.png
+Cave entrance.jpg
+natural	 cliff	NodeWayArea	 A cliff, a significant vertical, or near vertical, rock exposure (leave the lower face to the right of the way.)	
+Cliff2.png
+Cliff.jpg
+natural	 glacier	NodeArea	 Areas (or peaks) covered with ice throughout the year	
+Rendering-Natural glacier OSM.png
+Glacier.jpg
+natural	 peak	Node	 Top of a hill or mountain (summit)	
+OSB Peak.png
+Peak.jpg
+natural	 ridge	Way	 A ridge		North Ridge of Mount Rohr.jpg
+natural	 rock	NodeWay	 Suggested for mapping areas of rocks and small skerries that can be used for navigation or that might be a potential danger for navigation		
+natural	 saddle	Node	 Saddle between hills	
+Saddle example small.png
+
+(suggested)
+Saddle img.png
+natural	 scree	NodeArea	 Loose rock		Scree.jpg
+natural	 sinkhole	NodeArea	 A natural depression or hole in the surface topography		Rax doline.jpg
+natural	 volcano	Node	 A volcano, either dormant, extinct or active	
+Volcano 10.png
+DenglerSW-Stromboli-20040928-1230x800.jpg
+natural	 user defined	NodeArea	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Office
+An office is a place of business where administrative or professional work is carried out.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+office	 accountant	Node Area	 An office for an accountant.		
+office	 administrative	Node Area	 Local authorities, administrative and supervising institutions that are not related to state government.		
+office	 architect	Node Area	 An office for a architect.		
+office	 association	Node Area	 Office of a not-for-profit organisation, society, e.g. student,sport,consumer,automobile,bike association...		
+office	 camping	Node Area	 An office at a camping or recreational park. Also called reception.		
+office	 company	Node Area	 An office for a private company.		
+office	 educational_institution	Node Area	 An office for an educational institution.		
+office	 employment_agency	Node Area	 An office for a employment agency.		
+office	 estate_agent	Node Area	 An office for a estate agent or realtor.		
+office	 forestry	Node Area	 forestry office		
+office	 foundation	Node Area	 An office for a foundation.		
+office	 government	Node Area	 An office for a government agency or department.		
+office	 guide	Node Area	 An office for tour guides, mountain guides, dive guides, etc.		
+office	 insurance	Node Area	 An office for a insurance company or agent.		
+office	 it	Node Area	 An office for an IT specialist.		
+office	 lawyer	Node Area	 An office for a lawyer.		
+office	 newspaper	Node Area	 The office for a newspaper.		
+office	 ngo	Node Area	 An office for a non-government organisation.		
+office	 notary	Node Area	 notary's office		
+office	 political_party	Node Area	 An office for a political party.		
+office	 quango	Node Area	 An office for a quango (quasi-autonomous non-governmental organisation).		
+office	 realtor
+real_estate_agent	Node Area	 see office=estate agent above.		
+office	 register	Node Area	 register office / civil registry office. See also amenity=register_office		
+office	 religion	Node Area	 Office of an religion instance. For example: parish office. Use additionally religion=* and denomination=*.		
+office	 research	Node Area	 An office for R&D.		
+office	 tax	Node Area	 fiscal authorities, tax and revenue office		
+office	 telecommunication	Node Area	 Telecommunication company office.		
+office	 travel_agent	Node Area	 An office for a travel agent. See also shop=travel_agency.		
+office	 user defined	Node Area	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Places
+Used mainly to give details about settlements.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Administratively declared places
+place	 country	Node	 See boundary=administrative, admin_level=2		
+place	 state	Node Area	 See boundary=administrative, admin_level=* varies; may not be used in all countries.		
+place	 region	Node Area	 See boundary=administrative, admin_level=* varies; may not be used in all countries. For natural regions other keys should be searched.		
+place	 province	Node Area	 See boundary=administrative, admin_level=* varies; may not be used in all countries.		
+place	 district	Node Area	 See boundary=administrative, admin_level=* varies; may not be used in all countries.		
+place	 county	Node Area	 See boundary=administrative, admin_level=* varies; may not be used in all countries.		
+place	 municipality	Node Area	 See boundary=administrative, admin_level=* varies; depending on the country a collection of arbitrary hamlets, villages and towns may form an administrative unit; sometimes members of a unit reform or join with another municipality as a result of political process. Within a municipality individual settlements are a lot less connected than those within a city, where they have grown connected over time.		
+Populated settlements, urban
+place	 city	Node Area	 The largest urban settlements in the territory, normally including the national, state and provincial capitals. These are defined by charter or other governmental designation in some territories and are a matter of judgement in others. Should normally have a population of at least 100,000 people and be larger than nearby towns. See place=suburb and place=neighbourhood on how to tag divisions within a city. The outskirts of urban settlements may or may not match the administratively declared boundary of the city.		
+place	 borough	Node Area	 See boundary=administrative, depending on the country suburbs in larger cities are often grouped into administrative units called boroughs or city districts; using the value borough avoids name confusion in countries that declare districts within their states or counties.		
+place	 suburb	Node Area	 A distinct section of an urban settlement (city, town, etc.) with its own name and identity. e.g.
+annexed towns or villages which were formerly independent,
+independent (or dependent) municipalities within a city or next to a much bigger town
+historical districts of settlements
+industrial districts or recreation areas within a settlements with specific names.
+place	 quarter	Node Area	 A named part of a bigger settlement where this part is smaller then a suburb and bigger then a neighbourhood. This does not have to be an administrative entity.
+The term quarter is sometimes used synonymously for neighbourhood.		
+place	 neighbourhood	Node Area	 A named part of a place=village, a place=town or a place=city. Smaller than place=suburb and place=quarter.
+The term quarter is sometimes used synonymously for neighbourhood, but may also stand for borough or suburb and hence is often avoided in OSM. See Wikipedia Quarter_(urban_subdivision)		
+Populated settlements, urban and rural
+place	 town	Node Area	 A second tier urban settlement of local importance, often with a population of 10,000 people and good range of local facilities including schools, medical facilities etc and traditionally a market. In areas of low population, towns may have significantly lower populations. See place=neighbourhood and possibly also place=suburb on how to tag divisions within a town.		
+place	 village	Node Area	 A smaller distinct settlement, smaller than a town with few facilities available with people traveling to nearby towns to access these. Populations of villages vary widely in different territories but will nearly always be less than 10,000 people, often a lot less. See place=neighbourhood on how to tag divisions within a larger village.		
+place	 hamlet	Node Area	 A smaller rural community typically with less than 100-200 inhabitants, few infrastructure.		
+place	 isolated_dwelling	Node Area	 For a named settlement consisting of some two to three households in a secluded rural setting.		
+place	 farm	Node Area	 A farm that has its own name. If the farm is not a part of bigger settlement use place=isolated_dwelling. See also landuse=farmyard		
+place	 allotments	Node Area	 Dacha or cottage settlement, which is located outside other inhabited locality. This value is used mainly in Russia and other countries of the former Soviet Union, where a lot of such unofficial settlements exist		
+Other
+place	 continent	Node Area	 One of the seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, South America		
+place	 archipelago	Relation	 Identifies the relation of an archipelago, which contains several islands and islets.		
+place	 island	Area	 Identifies the coastline of an island (> 1 km2), also consider place=islet for very small islands		
+place	 islet	Node Area	 Identifies an islet (< 1 km2).		
+place	locality	Node Area	 For an unpopulated named place.		
+place	 User Defined	Mf node.png Mf area.png	All commonly used values according to Taginfo		
+Additional attributes
+population	 Number	Node Area	 Number of inhabitants of the place. Among other things, it might be used in selecting which name to render at a given zoom level at what font size.		
+name	 Text	Node Area	 To define the name of a place.		
+place_numbers	 Number	Node Way Area	 Probably better to use the Karlsruhe Schema instead of this tag.		
+postal_code	 Text	Node Way Area	 Probably better to use the Karlsruhe Schema instead of this tag.		
+reference_point	 yes	Node Way Area	 Named landmarks used to identify locations (common in some countries).		
+is_in	 Text	Node Way Area	Optional. Rudimentary way to describe boundary hierarchies, e.g. place=suburb, name=Eccleshall, is_in=Sheffield,South Yorkshire,England,UK. If boundary polygons exist, it's usually not needed. Unless categorization is wrongly done by e.g. Nominatim.		
+This section is a wiki template with a default description in English. Editable here.
+Power
+Used to map electrical power generation and distributions systems. See Power for further information.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+power	 cable	Way	 A way following the path of underground cables, such as the local 0.4 kV network between transformer stations, distribution boxes and cable connection points, or sea cables. Not to be confused with non-power supply cables such as cables for telecommunication. May be combined with location=underground/underwater/overground.		Power to the People - geograph.org.uk - 560240.jpg
+power	 cable_distribution_cabinet	Node	 In these cabinets, the 400-V circuits to the house connections, connection and transfer points of the regional utilities are branched. Other uses include distributions of the municipal street lighting.		Kvs2.jpg
+power	 converter	Node	 An HVDC converter converts electric power from high voltage alternating current (AC) to high-voltage direct current (HVDC), or vice-versa.		Pole 2 Thyristor Valve.jpg
+power	 generator	Node Area Relation	 A device used to convert power from one form to another. Use in combination with generator:source=*, generator:method=* and generator:output=*.		Eoliennes Gaspesie.jpg
+power	 line	Way	 A way following the path of (overground) power cables. For minor power lines with poles and not towers, you may want to use power=minor_line.	Power-tower mapnik.png	Electric transmission lines.jpg
+power	 minor_line	Way	 A way following the path of (overground) minor power cables, supported by poles and not towers/pylons. (This isn't quite so simple, as sometimes larger towers are replaced by smaller poles made with a stronger material; a better distinction might be based on voltage.)	Minor line mapnik.jpg	
+Pole3.jpg
+power	 plant	Area Relation	 A place/industrial facility where power is generated. Use in combination with power=generator.		Huntly Power Station.JPG
+power	 pole	Node	 For single (often wooden or concrete) poles carrying medium/low voltage electricity cables.	Minor line mapnik.jpg	
+Minor.jpg
+power	 substation	Node Area	 A tag for electricity substations. These provide voltage step-up/step-down, switching, conditioning, etc. Substations may be large facilities (up to several acres) for very high voltage transmission lines or just small buildings or kiosks near the street for low voltage distribution lines.	380kv-bleiswijk-mapnik.png	Substation.jpg
+power	 switch	Node	 A tag for electricity switches which are devices which allow operators to power up & down lines and transformer in substations or outside.		French overhead power switch pole.jpg
+power	 tower	Node	 For towers or pylons carrying high voltage electricity cables. Normally constructed from steel latticework but tubular or solid pylons are also commonly used. Should not be used for medium or low voltage electricity conductors carried on single wooden poles which might be tagged power=pole. See power=tower for detailed tagging of tower types.	Power-tower mapnik.png	Benkid77 Puddington-Shotwick footpath 24 110809.JPG
+power	 transformer	Node	 A static device for transferring electric energy by inductive coupling between its windings. Large power transformers are typically located inside substations		Trafostation Alter Hellweg IMGP4722.jpg
+cables	 2, 3, 4, 6, 9, 12, ...	Way	 Number of power-carrying cables represented by this way. The power line on the photo (click on it to see more details) has 6 double cables (the cable on top does not carry power) and thus may be tagged as cables=6 and wires=double.		Power-tower.JPG
+circuits	 1, 2, 3, ...	Way	 Number of electrical circuits represented by this way. The tag may be used when the number of physical cables is unknown (often the case for underground cable connections) or when the number of circuits is different from cables=* divided by 3. The photo shows a power line that connects to a cable connection having two circuits and thus may be tagged as circuits=2		Onder- en bovengronds.jpg
+tunnel	 yes	Way	 Notes that a line or cable is contained in a self-supporting tunnel that may also be used for other purposes such as road traffic or be provided for maintenance purposes. Cables buried underground should not use this tag but be tagged as power=cable and location=underground/underwater/..		
+voltage	 ...,
+110000,
+220000,
+380000,
+...	Way	 Voltage of the power line.		Tower reference sign.jpg
+wires	 single, double, triple, quad	Way	 Number of wires per power cable. "single" (1), "double" (2), "triple" (3) or "quad" (4). The photo shows an example of "double".		Twin-bundle.jpg
+power	 User Defined	Mf node.png Mf way.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Public Transport
+Features related to public transport. See Public transport for further information on mapping railway stations, bus stops and services etc.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+public_transport	 platform	Mf node.png Mf way.png Mf area.png	 The place where passengers are waiting for the transportation vehicle.	Bus platform.png	
+Bayview trstwy.jpg
+public_transport	 station	Mf area.png	 A station where several buses or trains end their service. Used in combination with building=yes or area=yes.		
+Manchester Piccadilly Bus Station.jpg
+public_transport	 stop_position	Mf node.png	 The position on the street or rails where a bus, tram or train stops.		
+Bus prumyslova.jpg
+public transport	 user defined	Node Area	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Railway
+Includes all kind of railway from heavy used mainline railway down to an abandoned line. See Railways for an introduction to mapping railways.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Track
+railway	 abandoned	Way	 The course of a former railway which has been abandoned and the track and infrastucture removed. The course may be still recognized through embankments, cuttings, bridges, tunnel and rolling or straight ways.		
+Abbey Barn Lane Bridge, High Wycombe, Buckinghamshire.jpg
+railway	 construction	Way	 A railway under construction. See construction=* and the construction=yes proposal Proposed_features/Construction		
+Verlegen FF Rheda.jpg
+railway	 disused	Way	 A section of railway which is no longer used but where the track and infrastructure remains in place. See disused=yes for alternative tagging.	Rendering-railway disused.png	
+Disused railtrack 101 5351.jpg
+railway	 funicular	Way	 Cable driven inclined railways. In many cases they serve touristic interest, giving easy access to spectacular mountain views.	Rendering funicular.jpg	
+Vilnius funicular.jpg
+railway	 light_rail	Way	 A higher-standard tram system, normally in its own right-of-way. Often it connects towns and thus reaches a considerable length (tens of kilometer).		Pittsburgh LRT 4305 47L Gateway to Library April 2008.jpg
+railway	 miniature	Way	Miniature railways are narrower than narrow gauge and carry passengers. They can be found in parks.	
+Mini-railway-mapnik.png
+3871553552 f2204c3d83 o.jpg
+railway	 monorail	Way	 A railway with only a single rail. A monorail can run above the rail like in Las Vegas and Disneyland or can suspend below the rail like the Wuppertal Schwebebahn (Germany)		
+Monorail in Kuala Lumpur
+railway	 narrow_gauge	Way	 Narrow-gauge passenger or freight trains. Narrow gauge railways can have mainline railway service like the Rhaetian Railway in Switzerland or can be a small light industrial railway. Use gauge=* to specify the actual width of rails.	Rendering narrow gauge.jpg	
+Narrow gauge.jpg
+railway	 preserved	Way	 A railway running historic trains, usually a tourist attraction (changed to preserved from preserved_rail as "rail" is redundant).	
+Railway preserved rendered.PNG
+Railway preserved.jpg
+railway	 rail	Way	 Full sized passenger or freight trains in the standard gauge for the country or state	Mapping-Features-Railroad-With-Station.png	LGV Est PK217.jpg
+railway	 subway	Way	 A city passenger rail service running mostly grade separated (see Wikipedia:rapid transit).		
+800px-Madrid - Estación Marqués de Vadillo - 20060910.jpg
+railway	 tram	Way	 One or two carriage rail vehicles, usually sharing motor road (Other languages)	Mapping-Features-Tram-With-Halt.png	Praha, Hloubetín, Lehovec, tram KT8D5.JPG
+Additional features
+bridge	 yes	Way	 If the railway goes over a street, waterway or other railway.	
+Railway bridge mapnick render.jpg
+Railway bridge.jpg
+cutting	 yes	Way	 A section where the railway is significantly lower than ground level		
+Railways cutting.jpg
+electrified	 contact_line / rail / yes / no	Way	 contact_line: a power line over the train head
+rail: a third rail near the track supplying the train with power
+yes: electrified track, but no details available
+no: track with no power supply		Overhead power lines.jpg
+embankment	 yes	Way	 A section where the railway is raised significantly higher than ground level		Railway embankment.jpg
+frequency	 number [kHz/MHz/GHz]	Way	 The frequency with which a line is electrified. Use 0 for DC. Also see the voltage tag.		
+service	 siding	Way	 Relatively short lengths of track, running parallel to (and connected to) a main route		
+service	 spur	Way	 Relatively short lengths of track, built to give one company or entity access to a main or branch line.		
+service	 yard	Way	 Tracks within railway company operated marshaling or maintenance yards		
+tracks	 number	Way	 Number of parallel tracks in close proximity when mapped as a single way. If not given means unknown and defaults to 1. In many parts of the world the tracks are being drawn out separately so that there is more detail, in which case this tag isn't used.		
+tunnel	 yes	Way	 If the railway goes below ground. Should be always present on subways.		Haywards Heath tunnel.jpg
+usage	 main / branch / freight / industrial / military / tourism	Way	
+main line: heavy traffic 
+branch line: connecting places with a mainline 
+freight: freight service only 
+industrial: servicing large plants (iron, chemical etc.), surface mining, ... 
+military: servicing military area 
+tourism: most mountain rails (rack-rails, funicular) and preserved railways.
+
+voltage	 number	Way	 The voltage with which a line is electrified. Also see the frequency tag.		
+Stations and Stops
+railway	 halt	Node	 A small station, may not have a platform, trains may only stop on request.	Mapping-Features-Tram-With-Halt.png	
+Railway halt.jpg
+public_transport	 platform	Node Way Area	 This is parallel to the rail line for showing where the actual platforms are. It is also to know where you can change platform and enter the station, so use footpaths to connect them. This is really useful for routing too.		
+Dscf0807-800.jpg
+railway	 station	Node Area	 Railway station (Other languages).	Mapping-Features-Railroad-With-Station.png	
+Paddington Station.jpg
+railway	 subway_entrance	Node	 The entrance to a subway station, usually going from surface to underground.		
+Madrid-metro-1.jpg
+railway	 tram_stop	Node	 A tram stop is a place where a passenger can embark / disembark a tram.	
+Rendering-railway-tram stop-mapnik.png.png
+Dscf1400-600.jpg
+Other
+railway	 buffer_stop	Node	 stops the train at the end of a track. see Buffer_stop		
+Stootblok (staal).jpg
+railway	 derail	Node	 a device used to prevent fouling of a rail track by unauthorized movements of trains or unattended rolling stock. See Derail_(railroad)		
+US derail detail.JPG
+railway	 crossing	Node	 A point where pedestrians may cross.		Dscf1407-600.jpg
+railway	 level_crossing	Node	 A point where rails and roads cross.	
+Rendering-railway-level crossing-mapnik.png
+Level crossing - Chertsey - England - 270404.jpg
+landuse	 railway	Area	 Ground used around railways and railway-stations		
+Illustration of Rail.jpg
+railway	 switch	Node	 Full Connections between railways (aka 'points')		Railway switch.JPG
+railway	 turntable	Node Area	 These are used for changing the direction that part of a train is pointing in.		
+Turntable of Railroad 001.jpg
+railway	 roundhouse	Area	 A semicircular building with many stalls for servicing engines.		
+5843873292 81e16dea1f z d.jpg
+railway	 user defined	Node Way	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Route
+Used to describe routes of many kinds. See also Relation:route.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+route	 bicycle	Way Relation	Cycle routes explains how to tag cycle routes		
+route	 bus	Way Relation	 The route a public bus service takes. See Buses		
+route	 canoe	Way Relation	 Route for canoeing through a waterway.		
+route	 detour	Way	 Route for fixed detour routes. Examples are Bedarfsumleitung in Germany and uitwijkroute in the Netherlands		
+route	 ferry	Way Relation	 The route a ferry takes from terminal to terminal Please make sure to add at least one node per tile (zoom level 12), better at least one every few km, so offline editors catch it with bbox requests.	
+Ferry route mapnik.png
+route	 hiking	Way Relation	Hiking explains how to tag hiking routes		
+route	 mtb	Way	Mountain biking explains how to tag mtb routes		
+route	 pipeline	Way	 For pipelines, pipeline markers, and pipeline stations		
+route	 piste	Relation	 Proposed for the routes of pistes (e.g., snowshoe or XC-Ski trails) in winter sport areas.		
+Snowshoe trail.jpg
+route	 power	Way	 where power lines use the same towers (the same way)		
+route	 railway	Way Relation	 A sequence of railway ways, often named (e.g., Channel Tunnel). See Railways		
+route	 road	Way Relation	 Can be used to map various road routes/long roads		
+route	 ski	Way	 For ski tracks (e.g., XC-Ski Trails User:Langläufer/Loipemap)		
+route	 train	Way Relation	 Train services (e.g., London-Paris Eurostar) See Railways		
+route	 tram	Way Relation	 See Trams for more information on tagging tram services		
+route	 user defined	Node Area	Tag statistic according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Shop
+A shop is a place of business stocked with goods for sale. See Shops for more details.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Food, Beverages
+shop	 alcohol	Node Area	 Government owned or licensed shop selling alcohol. See also shop=beverages.		
+Liquor store in Breckenridge Colorado.jpg
+shop	 bakery	Node Area	 Selling bread	
+Shop bakery.p.16.png
+Bread in Boudin.jpg
+shop	 beverages	Node Area	 Shop focused on selling alcoholic and non-alcoholic beverages. See also shop=alcohol.		
+Coca Cola Kisten.jpg
+shop	 butcher	Node Area	 Selling meat	
+Butcher-shop.png
+Butcher's shop Hong kong.jpg
+shop	 cheese	Node Area	 Selling cheese		
+shop	 chocolate	Node Area	 Selling chocolate		
+shop	 confectionery	Node Area	 A shop selling sweets or candy		
+Sweet Shop, Chester.JPG
+shop	 convenience	Node Area	 A small local shop carrying a small subset of the items you would find in a supermarket	
+Shop convenience.p.16.png
+Food and wine shop.jpg
+shop	 deli	Node Area	 A shop selling delicatessen (fine foods), possibly also fine wine.		
+shop	 farm	Node Area	 A shop or roadside stand that sells freshly harvested farm produce	
+Apple 16x16.png
+Chatsworth farm shop - geograph.org.uk - 24050.jpg
+shop	 greengrocer	Node Area	 Selling vegetables and fruits.		
+Greenrocer's Interior.jpg
+shop	 organic	Node Area	 A shop selling organic food. Alternatively you can use the more versatile organic=* in combination with a general shop=* key (In this case: shop=supermarket or shop=convenience).		
+Hofladen-Dottenfelderhof-Bad-Vilbel-27042005.jpg
+shop	 pasta	Node Area	 A shop selling (fresh) pasta, ravioli, etc.		
+Ravioli 2.jpg
+shop	 seafood / fish	Node Area	 A shop selling fish/seafood.		Seafood chijin.jpg
+shop	 tea	Node Area	 A tea shop.		
+Tea shop by matsuyuki in Nishiki Ichiba, Kyoto.jpg
+General store, department store, mall
+shop	 department_store	Node Area	 A single large store - often multiple storeys high - selling a large variety of goods (see also shop=mall)	
+Department store.p.16.png
+Takeshimaya Times Square in the evening.jpg
+shop	 general	Node Area	 A store that carries a general line of merchandise. (see also shop=convenience if it sells food).		
+Feinkost Weber Hernals 1994.jpg
+shop	 kiosk	Node Area	 A small shop on the pavement that sells magazines, tobacco, newspapers, sweets and stamps.		
+Kiosk germany.jpg
+shop	 mall	Mf node.pngMf area.png	 A shopping mall - multiple stores under one roof (also known as a shopping centre)		
+Dalian large Shopping Mall 2005.jpg
+shop	 supermarket	Node Area	 Supermarket	
+Shop supermarket.p.16.png
+Supermarket check out.JPG
+Clothing, shoes, accessories
+shop	 baby_goods	Node Area	 A shop that sells objects for babies (clothes, prams, cots, toys).		
+Baby care shop2.jpg
+shop	 bag	Node Area	 A shop that sells bags		
+shop	 boutique	Node Area	 A small shopping outlet, especially one that specializes in elite and fashionable items		
+shop	 clothes	Node Area	 A shop selling clothes (other related value in use is fashion)	
+Shop clothes.p.16.png
+Hasseen2.jpg
+shop	 fabric	Node Area	 A shop that sells fabric and other materials for the purpose of making clothes and other products, eg dress making.		
+Shop fabric.JPG
+shop	 jewelry	Node Area	 Jewellers shops.		
+Bijouterie.jpg
+shop	 shoes	Node Area	 Selling shoes.		
+Shoes.JPG
+Discount store, charity
+shop	 charity	Node Area	 A charity shop is a shop operated by a charity, for the purposes of fundraising.		
+Cancer Research, Armagh, November 2009.JPG
+shop	 second_hand	Node Area	 A shop buying and selling used clothes and other things. See also shop=pawnbroker		
+HK Sheung Wan 2nd hand market Tung Street ????.JPG
+shop	 variety_store	Node Area	 A variety store retailer is a retail store that sells inexpensive items, sometimes with a single price point for all items in the store.		
+100-Emon.jpg
+Health and Beauty
+shop	 beauty	Node Area	 A non-hairdresser beauty shop, spa, nail salon, etc.. See also shop=hairdresser.		
+Hair and Beauty, Strabane, January 2010.JPG
+shop	 chemist	Node Area	 A shop selling articles of personal hygiene, cosmetics, and household cleaning products (for a shop that potentially dispenses prescription drugs, cf. pharmacy. U.S. drug store, see amenity=pharmacy)		
+Kelly Chemist, Omagh - geograph.org.uk - 103193.jpg
+shop	drugstore	 -	 This tag is discouraged. Please use either shop=chemist (if they sell prescription-free drugs, cosmetics, household cleaning products, etc.) or amenity=pharmacy (if they offer prescription drugs).		
+shop	 erotic	Node Area	 A shop for erotictoys, -clothes or other eroticstuff.		
+Sex shops (Paris)-01.jpg
+shop	 hairdresser	Node Area	 Here you can get your hair cut, coloured, ... See also shop=beauty	
+Shop hairdresser.p.16.png
+Belfast (187), October 2009.JPG
+shop	 hearing_aids	Node Area	 A shop specialized in selling hearing aids devices		
+Shop audiologist.jpg
+shop	 herbalist	Node Area	 A shop specialized in selling herbs, often for medical purposes		
+shop	 massage	Mf node.pngMf area.png	 A massage shop		
+Thaimassage.jpg
+shop	 optician	Node Area	 A shop that sells eyeglasses, contact lenses (may also check your eyes).		
+US Navy 021029-N-3228G-001 Adjusting a customer's eyeglasses.jpg
+shop	 tattoo	Node Area	 A tattoo parlour.		
+Tattoo-by-grisha-maslov.jpg
+Do-it-yourself, household goods, building materials, gardening products
+shop	 bathroom_furnishing	Node Area	 Selling bathroom furniture and accessories		
+shop	 doityourself	Node Area	 A shop that sells tools and supplies to do-it-yourself householders, gardening, ...	
+Shop diy.p.16.png
+shop	 florist	Node Area	 Get your bouquet of flowers from here (see shop=garden_centre for potted flowers).	
+Florist.p.16.png
+Butler's Wharf Flower Shop.jpg
+shop	 furnace	Node Area	 A shop for furnances and ovens		
+shop	 garden_centre	Node Area	 Selling potted flowers, maybe even trees (see also shop=florist for flower bouquets).		
+Almondsbury.garden.centre.arp.jpg
+shop	 gas	Node Area	 A shop where technical gas, such as argon, oxygen, acetylene, nitrogen, carbon dioxide, etc can be purchased in bottles		
+2008-07-24 Bundle of compressed gas bottles.jpg
+shop	 glaziery	Node Area	 Selling and installing glazing for windows and doors.		
+shop	 hardware	Node Area	 A shop that sells building supplies including screws, bolts & paints, ... See also shop=doityourself		Tweedy and Popp 03.jpg
+shop	 houseware	Node Area	 A shop that sells crockery, cutlery, kitchenware, small household appliances.		
+shop	 locksmith	Node Area	 A shop that sells keys, see also craft=locksmith and craft=key_cutter		
+shop	 paint	Node Area	 A shop where you can buy paints.		
+Artists paints.jpg
+shop	 trade	Node Area	 A place of business that specifically sells one or more building supplies such as timber/wood, cement etc. See also shop=doityourself		
+Furniture and Interior
+shop	 antiques	Node Area	 Retail store specializing in the selling of antiques.		
+shop	 bed	Node Area	 A shop that specalises in selling mattresses and other bedding products.		
+Bed Shop, Omagh - geograph.org.uk - 129722.jpg
+shop	 candles	Node Area	 A shop primarily selling candles and candle accessories (holders, etc)		
+shop	 carpet	Node Area	 A shop selling carpets		
+shop	 curtain	Node Area	 Shop that specalises in selling curtains or drapes (see also shop=fabric)		
+Commerciante di tessuti.jpg
+shop	 furniture	Node Area	 Selling furniture, might range from small decorational items to a whole flat interieur		
+shop	 interior_decoration	Node Area	 Shop for interior decorations.		
+shop	 kitchen	Node Area	 A shop where you can plan and buy your kitchen. (Sometimes called "kitchen studio" and the like, but plain kitchen is the most frequently used tag so far.)		
+shop	 window_blind	Node Area	 A shop that sells window blinds.		
+Some window blinds.JPG
+Electronics
+shop	 computer	Node Area	 A shop selling computers, peripherals, software, ...		
+Computer shop, Crossens.JPG
+shop	 electronics	Node Area	 Selling consumer electronics (TV, radio, ...). Larger ones may also sell computers, fridges, ...		
+shop	 hifi	Node Area	 A shop that sells High Fidelity or High End environment to listen music or watch films at home		
+JB Hi-Fi Wagga Wagga.jpg
+shop	 mobile_phone	Node Area	 A shop that primarily sells mobile phones and accessories		
+3G Mobile Phones fot China Mobile.jpg
+shop	 radiotechnics	Node Area	 A shop selling electronic components, electrical products, radio measuring devices, supplies for radio and electronics.		
+shop	 vacuum_cleaner	Node Area	 A shop that specalises in the sale of vacuum cleaners and associated products.		
+Panasonic MCE8013 vacuum cleaner close.jpg
+Outdoors and Sport, Vehicles
+shop	 bicycle	Node Area	 A shop that sells bicycles, bicycle equipment and may rent or repair them	
+Shop bicycle.png
+ShopBicycle.jpg
+shop	 car	Node Area	 Car store - a place to buy cars or to get your car repaired	
+Purple-car.svg
+Dscf1411-800.jpg
+shop	 car_repair	Node Area	 A shop focused on car repair (usually independent of a specific car brand).	
+Shopping car repair.p.16.png
+Colourful Shops Places In Onehunga II.jpg
+shop	 car_parts	Node Area	 Shop for auto parts, auto accessories, motor oil, car chemicals, etc.		
+shop	 dive	Node Area	 Shop where you can buy or rent diving equipment.		
+Dive shop, Babbacombe - geograph.org.uk - 224395.jpg
+shop	 fishing	Node Area	 shop where to buy fishing equipment.		
+shop	 free_flying	Node Area	 shop where to buy free_flying equipment.		
+shop	 hunting	Node Area	 Shop where you can buy gun and hunting equipment.		
+Bass Pro Shops entrance.JPG
+shop	 motorcycle	Node Area	 A shop that sells motorcycles and/or related accessories, clothes, parts, repair and rental services.		
+KAWASAKI KLR 650.JPG
+shop	 outdoor	Node Area	 A shop that sells camping, walking, climbing, and other outdoor sports equipment (GPSes, etc.)		
+shop	 sports	Node Area	 A shop selling sporting goods.		
+HK TST East Mody Road Wing On Plaza Shop Kettler Sport Fitness.JPG
+Art, music, hobbies
+shop	 art	Node Area	 A private art gallery which sells works of art.		
+Art Mur Installation Jinny Yu.jpg
+shop	 craft	Node Area	 An arts and crafts supply store. Commonly sold items are paper, canvas, paint, pencils, crafting wood, crafting tools, etc. - look at craft=*		
+shop	 frame	Node Area	 A shop where you can buy frames.		
+Framed Madhubani art in a shop.jpg
+shop	 music	Node Area	 where music is purchased (vinyl/CDs/...)		
+Music shop.JPG
+shop	 musical_instrument	Node Area	 A shop where you can buy musical instruments, lyrics, scores.		
+Portadown (66), September 2009.JPG
+shop	 video	Node Area	 A shop that sells or rents out videos/DVDs.		
+Video shop.jpg
+shop	 video_games	Node Area	 A shop selling video games.		
+Stationery, gifts, books, newspapers
+shop	 anime	Node Area	 Specials shops for anime stuff.		
+shop	 books	Node Area	 Selling books (for a library that lends books, see amenity=library)		
+Strand basement jeh.jpg
+shop	 gift	Node Area	 Selling gifts, greeting cards, or tourist gifts (souvenirs)		
+Gift shop interior.jpg
+shop	 newsagent	Node Area	 Shop selling newspapers, cigarettes, other goods		HK Sheung Wan Po Yan Street 7-11 Shop Newspaper Stand.JPG
+shop	 stationery	Node Area	 A shop selling office supplies		center
+shop	 ticket	Node Area	 A ticket shop or box office. Sells tickets for concerts, events, public transport, ...		
+Box office of Shosha station.jpg
+Others
+shop	 copyshop	Node Area	 A shop that offers photocopying and printing services.		
+HK ?? Sheung Wan ??? Jervois Street 24 photo copy print co shop.JPG
+shop	 dry_cleaning	Node Area	 A shop or kiosk offering a clothes dry cleaning service. The actual cleaning may be done elsewhere.		
+Dry clean rack.jpg
+shop	 funeral_directors	Node Area	 Providing services related to funeral arrangements, may also be known as a "funeral parlour" or "undertakers".		
+JapaneseFuneralArrangementTokyo.jpg
+shop	 laundry	Node Area	 A shop to get your normal clothes washed. Might be self service coin operated, with service staff for drop off, ...	
+Shop-laundry-icon.png
+Polarstern laundry hg.jpg
+shop	 money_lender	Node Area	 A money lender offers small personal loans at high rates of interest.		
+shop	 pawnbroker	Node Area	 A pawnbroker (or pawnshop) is an individual or business that offers secured loans to people. See also shop=second_hand		
+Pawnbroker Oulu 20090906.JPG
+shop	 pet	Node Area	 A shop for pets, animals and toys or food for them.		
+Baby parrots in a pet shop-8a.jpg
+shop	 pyrotechnics	Node Area	 Store of pyrotechnics: fireworks, firecrackers, sparklers etc.		
+shop	 religion	Node Area	 Store of religious articles, church shop. See also religion=*		
+shop	 tobacco	Node Area	 A shop selling tobacco, cigarettes and their related accessories.		
+Bundesarchiv B 145 Bild-F009687-0007, Wuppertal, Einzelhandel, Tabakladen.jpg
+shop	 toys	Node Area	 A toy store.		
+HK Toys R Us.JPG
+shop	 vacant	Node Area	 Don't use this anymore - a vacancy is not a shop and should not show up on maps as a shop. Use disused:shop=* instead. Not deleting a shop that has been closed can be useful to avoid confusing other mappers who may not know about this (please leave a note=*). Then you can keep the corresponding object and simply edit it when a new shop opens on the same spot.		
+shop	 weapons	Node Area	 Store of weapons: Knifes, guns etc.		
+Other values
+shop	 user defined	Node Area	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Sport
+Use to provide information about which sports are placed on a facility such as a pitch or stadium. Use in conjunction with landuse=* or leisure=*.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+sport	 9pin	Node Area	 9-pin Bowling (on Wikipedia) - bowling game played in Europe with only 9 pins		
+Kegeln-Kugel.jpg
+sport	 10pin	Node Area	 10-pin Bowling (on Wikipedia)		
+Bowling.JPG
+sport	 american_football	Node Area	 American Football. Tag introduced June 2010 in preference to use of the confusing sport=football		
+Shea Smith-edit1.jpg
+sport	 aikido	Node Area	 Aikido (on Wikipedia)	
+Aikido pictogram.svg
+Shihonage.jpg
+sport	 archery	Node Area	 The different variations of this sport can be specified by also adding a type=* tag. Values for this type=* tag are e.g.: FITA, field, 3D, ... See also Archery on Wikipedia		
+Mcroriz2.JPG
+sport	 athletics	Node Area	 Track and field athletics. A collection of sports events that involve throwing and jumping (on Wikipedia).
+for running tracks better use running		
+Silke Spiegelburg Berlin 2009.jpg
+sport	 australian_football	Node Area	 Australian Rules Football. A team sport played between two teams of 18 players with a ball on large oval shaped grass fields (often also used as a cricket ground), with four goal posts at each end.(on Wikipedia)		
+Aussie rules kicking.jpg
+sport	 base	Node Way	 Buildings, Antennae, Span & Earth. A more down to earth approach to parachuting (on Wikipedia)		
+Hio.jpg
+sport	 badminton	Node Area	 An indoor sport played with a shuttlecock and racquet, played as singles or in teams of two (on Wikipedia).		
+Badminton Semifinal Pan 2007.jpg
+sport	 baseball	Node Area	 An outdoor bat-and-ball sport contested by two teams of nine players each on a large grass pitch (on Wikipedia)		
+Baseball swing.jpg
+sport	 basketball	Node Area	 Basketball, very popular in the USA and the Philippines (on Wikipedia)		
+Basketball through the hoop.JPG
+sport	 beachvolleyball	Node Area	beachvolleyball on Wikipedia		
+Beach volleyball from zh.JPG
+sport	 bmx	Node Area	BMX on Wikipedia.		
+BMX racing action photo.jpg
+sport	 boules	Node Area	 A collective name for games played with metal balls, popular in France (on Wikipedia).
+The different variations of this sport can be specified by also adding a type=* tag. Values for this type=* tag are e.g.: petanque, lyonnaise, extreme, ...
+
+Boules set.jpg
+sport	 bowls	Node Area	 A place where you can play lawn bowls/lawn bowling		
+Lawn Bowling.jpg
+sport	 boxing	Node Area	 Boxing (Olympic discipline)		
+Boxing080905 photoshop.jpg
+sport	 canadian_football	Node Area	 Canadian Football		
+Canadian football.jpg
+sport	 canoe	Node Area	 Canoeing (both canadian and kayaks)	
+Canoe.gif
+Canoe.jpg
+sport	 chess	Node Area	 Chess (on Wikipedia) - here mostly intended: big chess-boards in the open air		
+OutdoorChess.jpg
+sport	 cliff_diving	Node Area	 jumping from a cliff or a rock into water		
+Mazatlan Diver Sequence.jpg
+sport	 climbing	Node Area	 Rock climbing - natural or artificial climbs (climbing walls) (on Wikipedia)		
+Dscf0658 600.jpg
+sport	 cricket	Node Area	 A bat-and-ball sport contested by two teams, usually of eleven players, each on a large grass pitch (on Wikipedia)		
+Cricket Bat.jpg
+sport	 cricket_nets	Node Area	 Cricket nets for practice used by batsmen and bowlers to warm up and/or improve their cricketing techniques. (on Wikipedia)		
+Pollock in nets.jpg
+sport	 croquet	Node Area	 A game played between 2 or more players on a small grass pitch hitting wooden or plastic balls with a mallet through hoops embedded into the grass. (on Wikipedia)		
+Croquet modern.jpg
+sport	 cycling	Node Area			
+Fabian Wegmann 03.jpg
+sport	 dog_racing	Node Area			
+Greyhound Dogs entering the trap boxes in the Macau caninodrome(Macau)2005..jpg
+sport	 fencing	Node Area	fencing on Wikipedia		
+0408 USA Olympic fencing.jpg
+sport	 equestrian	Node Area	 Equestrianism, sports involving the skill of riding or driving horses (on Wikipedia).
+Often associated internationally with show jumping and dressage, but also including endurance riding, eventing, reining, tent pegging, vaulting, polo, horse racing, driving, rodeo and more.
+
+See also sport=horse_racing
+
+Evie Gullis Jumping Her Horse.JPG
+sport	football		DO NOT USE THIS TAG, as it is ambiguous. Use: soccer, rugby_league, rugby_union, australian_football, ...		
+sport	 free_flying	Node Way Area	 Paragliding/Hanggliding/... takeoff, landings, towing, etc. and related amenities and properties		
+Pente ecole parapente.jpg
+sport	 gaelic_games	Node Area	 Gaelic games such as Hurling, Gaelic Football, Camogie, predominantly played in Ireland.
+For tagging individual games under this category see the tag page.
+
+Hurling sport - Taking a swing.jpg
+sport	 golf	Node Area	 for golf courses, use leisure=golf_course	
+Sport-golf.png
+D.A.Weibring.jpg
+sport	 gymnastics	Node Area			
+Acro-tcd.JPG
+sport	 hockey	Node Area			
+Field hockey.jpg
+
+Eishockey Eisbaeren gegen Capitals.jpg
+sport	 horseshoes	Node Area	horseshoes on Wikipedia		
+Horseshoes Modern.jpg
+sport	 horse_racing	Node Area			
+Racing at Ruidoso Downs.jpg
+sport	 ice_stock	Node Area	 Use with: leisure=pitch. Eisstockschießen on Wikipedia		
+Icestock.jpg
+sport	 judo	Node Area	 Judo (Olympic discipline)		
+Haraigoshi.jpg
+sport	 karting	Node Area	 For a description of this motor sport, see: http://en.wikipedia.org/wiki/Kart_racing . When used together with highway=raceway then please add also area=no, otherwise the raceway is not rendered.		
+Kart Racing 1.jpg
+sport	 kitesurfing	Node Area	 For a description of this water sport, see: Kitesurfing on Wikipedia		
+sport	 korfball	Node Area	 (korfball on Wikipedia)		
+Korfball.jpg
+sport	 motor	Node Area			
+Brucewinning.jpg
+sport	 multi	Node Area			
+sport	 obstacle_course	Way Area	 (Obstacle course). A series of challenging physical obstacles an individual or team must navigate usually while being timed.		
+Hinderbanan.jpg
+sport	 orienteering	Node Area	 (Orienteering club or centre). Navigation sport with Map and compass.		
+Orienteering.jpg
+sport	 paddle_tennis	Node Area	 (paddle_tennis on Wikipedia)		
+Paddle tennis.jpg
+sport	 paragliding	Node Area	 Paragliding takeoff or landing site (paragliding on Wikipedia)	
+Air sports pictogram.svg
+Virage à la sellette.jpg
+sport	 pelota	Node Area	 Spanish Groupname for a number of ball games (Baseball, Basque pelota, Bocce, Jai alai, Valencian pilota). (pelota on Wikipedia)		
+Ustaritz Fronton Pala.jpg
+sport	 racquet	Node Area	 Group name of sports that are played with a racquet		
+Racquetball-racquet-and-bal.jpg
+sport	 rowing	Node Area	 (rowing on Wikipedia)		
+Daniel Lyons and Robert Espeseth of the US Olympic rowing team.JPEG
+sport	 rugby_league	Node Area	 One of the two codes of rugby football, split from rugby union in 1895, along with subsequent rule changes		
+Lance hohaia running into the defence (rugby league).jpg
+sport	 rugby_union	Node Area	 Rugby union is a full contact team sport, a form of football which originated in England in the early 19th century.		
+Senegal rugby.jpg
+sport	 running	Node Way Area	 Running		
+800m at 2011 German Athletics Championships.jpg
+sport	 scuba_diving	Node Area			
+Diving - scubadiver.JPG
+sport	 shooting	Node Area	 outdoor or indoor shooting range		
+050607 M 5900L 044.jpg
+sport	 skating	Node Area	 ice skating	
+Ice skating icon.svg
+Icerink2.jpg
+sport	 skateboard	Node Area			
+SkateboardThumbnail.jpg
+sport	 skiing	Node Area	 This tag isn't well documented, and it's usage is unclear. I would better recommand the use of the Proposed_features/Piste_Maps Project for things related to skiing		
+Esquiant.JPG
+sport	 soccer	Node Area	 Association football, more commonly known as football or soccer, a team sport played between two teams of eleven players (on Wikipedia). Note: While called "football" (fussball, fotball, ...) in many countries, it is best to tag it as "soccer" to avoid confusion with other usages of "football"	
+Sport-soccer.png
+Billiken soccer.jpg
+sport	 surfing	Node Area	 (surfing on Wikipedia)	
+Surfing.svg
+Surfergirl.jpg
+sport	 swimming	Node Area		
+Sport-swimming.png
+KingdomGames07 02.jpg
+sport	 table_tennis	Node Area			
+Pingpong equip.jpg
+sport	 taekwondo	Node Area	 Taekwondo (Olympic discipline)		
+Taekwondo Fight 01.jpg
+sport	 team_handball	Node Area	(Team) handball on Wikipedia	
+Handball.png
+Women Handball.jpg
+sport	 tennis	Node Area	 Tennis courts	
+Sport-tennis.png
+Yes NCTU tennis 2.JPG
+sport	 toboggan	Node Way Area	 public sledding run; see also Piste Map Proposal (piste:type=sled, piste:difficulty=advanced, piste:lit=yes)		
+Kohn 4menbobsled 2005-11-02.jpg
+sport	 volleyball	Node Area	volleyball on Wikipedia		
+Volleyball game.jpg
+sport	 water_ski	Node Way Area	 Waterskiing: either on a cable ski course, or pulled by a boat.		
+Water skiing 0757.jpg
+sport	 weightlifting	Node Area	 Weightlifting (Olympic discipline)		
+Weightlifting.jpg
+sport	 wrestling	Node Area	 Wrestling (Olympic discipline)		
+Wrestling dsc03566.jpg
+sport	 user defined	Node Area	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Tourism
+Used to map places and things of specific interest to tourists: places to see, places to stay, things and places providing support. See Key:tourism for more information. See Tourism for a general introduction.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+tourism	 alpine_hut	Mf node.png Mf area.png	 A remote building located in the mountains intended to provide board and lodging.	
+Alpinehut.p.16.png
+Ascher Hütte a.jpg
+tourism	 attraction	Mf node.png Mf area.png	 A general tourism attraction, this tag is often used in addition with other tags (like historic=*).	
+Rendering-area-tourism-attraction.png
+tourism	 artwork	Mf node.png Mf way.png Mf area.png	 A tag for public pieces of art.		
+Begynnelse-4.jpg
+tourism	 camp_site	Mf node.png Mf area.png	 A place where people can camp overnight, using tents or camper vans or caravans.	
+Camping.n.16.png
+2009-07-26 Ekeberg Camping.JPG
+tourism	 caravan_site	Mf node.png Mf area.png	 A place where you can park a caravan overnight or for longer periods.	
+Caravan park.p.24.png
+Caravan Site, Stonehaven - geograph.org.uk - 156173.jpg
+tourism	 chalet	Mf node.png Mf area.png	 Rent a hut (see chalet)	
+Chalet.p.16.png
+Chalets - geograph.org.uk - 37944.jpg
+tourism	 gallery	Mf node.png Mf area.png	 Art galleries are a popular visitor attraction		
+2012-09-02 Gemaeldegalerie Berlin anagoria.JPG
+tourism	 guest_house	Mf node.png Mf area.png	Guest house. Accommodation without hotel license that is typically owner-operated, offers a room and breakfast with staff not available 24/7, ranging from purpose-built guest houses to family-based Bed&Breakfast.	
+Guest house.p.16.png
+The Crossroads Country Guest House - geograph.org.uk - 88520.jpg
+tourism	 hostel	Mf node.png Mf area.png	Hostel.	
+Hostel.p.20.png
+Dorm Room 1.jpg
+tourism	 hotel	Mf node.png Mf area.png	Hotel.	
+Hotel2.p.20.png
+Hcom 1097758 7 b.jpg
+tourism	 information	Mf node.png Mf area.png	 Information resource for tourists and visitors. To additionally describe the kind of information use information=*.	
+Information.p.16.png
+Fleetwood tourist information centre - DSC06596.JPG
+tourism	 motel	Mf node.png Mf area.png	Motel.	
+Motel.p.20.png
+Dscf0759 600.jpg
+tourism	 museum	Mf node.png Mf area.png	 Museum.	
+Museum.p.16.png
+Louvre-facade-est.jpg
+tourism	 picnic_site	Mf node.png Mf area.png	 A place where you can have an outdoor picnic. May have facilities such as tables and benches.		
+Picnic site.jpg
+tourism	 theme_park	Mf node.png Mf area.png	Theme park or amusement park without theme.		
+Theme park.jpg
+tourism	 viewpoint	Mf node.png	 A place, often high, with a good view of surrounding countryside or notable buildings, lookout. Sometimes called a vista point or scenic area/point.	
+View point.p.16.png
+Viewpoint.jpg
+tourism	 wilderness_hut	Mf node.png Mf area.png	 A remote building with fireplace intended to provide shelter and sleeping accommodation.		
+Alpe scaredi.jpg
+tourism	 zoo	Mf node.png Mf area.png	 Zoological garden.	
+Zoo.png
+A miss. berlin 1.JPG
+tourism	 yes	Mf node.png Mf area.png	 To add tourist interest to something described by other tags.		
+tourism	 user defined	Mf node.png Mf area.png	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Waterway
+In all rivers, canals etc., the way should be aligned in the direction of water flow. See Waterways for an introduction to the mapping of waterways.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+natural watercourses
+waterway	 river	Way	 For narrow rivers which will be rendered as a line. For larger rivers (defined as more than 12m across) see waterway=riverbank (Other languages).	Rendering-waterway-river.png	
+Nau im Langenauer Ried 600x450.jpg
+waterway	 riverbank	Area	 Used for larger rivers, to define an area between the opposite riverbanks. See water=river for alternative tagging.	Rendering-waterway-riverbank.png	
+Dscf1891-800.jpg
+waterway	 stream	Way	 A naturally-formed waterway that is too thin to be classed as a river. An active, able-bodied person should be able to jump over it if trees along it aren't too thick.	
+Rendering-waterway-stream-mapnik.png
+450px-Marshall-county-indiana-yellow-river.jpg
+waterway	 wadi	Way	 A natural, dry (ephemeral) riverbed that contains water only during times of heavy rain or simply an intermittent stream, in semi-arid areas. Also known as a "Wash" in the deserts of America.	
+Rendering-waterway-wadi-mapnik.png
+NahalashanS.jpg
+man made waterways
+waterway	 canal	Way	 An artificial open waterway used for transportation, waterpower, or irrigation.(Other languages).		
+Grand Union Canal.jpg
+waterway	 drain	Way	 An artificial waterway for carrying storm water or industrial discharge.		
+Example Drain.jpg
+waterway	 ditch	Way	 A small to moderate depression created to channel water.		
+Forest ditch.JPG
+facilities
+waterway	 dock	Node Area	 An 'enclosed' area of water used for building or repairing ships.		
+Ship-Dock.jpg
+waterway	 boatyard	NodeArea	 Boat yard - a place for constructing, repairing and storing vessels out of the water.		
+Boatyards, Rhyll.jpg
+barriers on waterways
+waterway	 dam	Way Area	 A wall built across a river or stream to impound the water. A dam normally does not have water flowing over the top of it.		
+Amagase Dam.jpg
+waterway	 weir	Node Way	 A barrier built across a river, sometimes to divert water for industrial purposes. Water can still flow over the top.		
+Alifakovac Miljacka.jpg
+waterway	 lock_gate	Node	 To mark the position of gates at each end of a lock. Alternatively, for smaller locks use a single lock=yes node in the middle of the lock.		
+JesusGreenLock-Cambridge.jpg
+other features on waterways
+waterway	 turning_point	Node	 A place to turn the driving direction for vessels, where the boats are longer than the river/canal is wide. Use maxlength=* to denote the maximum length of the vessel.		
+waterway	 water_point	Node	 This tag is for ports/marinas where you can get large amounts of potable water.		
+Some additional attributes for waterways
+intermittent	 yes	Way	 Indicates that the waterway does not have a permanent flow (i.e. is sometimes/often dry).		
+lock	 yes	Way (Node)	 A lock is used for moving boats between waterways at two different levels. Can tag either the section of the way between the gates (detailed) or just a single node in the waterway (less detailed).		
+JesusGreenLock-Cambridge.jpg
+mooring	 yes/private/no	Way	 A length of bank where boats are explicitly permitted to moor. maxstay=* should be used for timing information.		
+Lamanage La Rochelle.jpg
+service	 transportation/water_power/irrigation	Way	 A waterway=canal may have one (or more; separate with semicolons) uses.		
+tunnel	 culvert	Way (Node)	 For a stream passing under a road use tunnel=culvert on the section of stream passing under the road (don't use this tag for open-top culverts or roads using the culvert structure as a bridge (bridge=culvert)).		
+Culvert.jpg
+user defined values
+waterway	 user defined	Node Way	All commonly used values according to Taginfo		
+This table is a wiki template with a default description in English. Editable here.
+Additional properties
+
+Addresses
+Used to provide postal information for the building or facility. See Addresses and addr=* for more details on usage.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Tags for individual houses
+addr:housenumber	 user defined	Node Area	 The house number (may contain letters, dashes or other characters).
+Addresses describes ways to tag a single building with multiple addresses.
+Please do not only tag addr:housenumber=*, but also add at least addr:street=* (or map the belonging to a street with a relation using associatedStreet relation).		
+Wien Lainzer Str 8a.jpg
+addr:housename	 user defined	Node Area	 The name of a house. 
+This is sometimes used in some countries like England instead of (or in addition to) a house number.		
+addr:street	 user defined	Node Area	 The (main) name of the respective street. 
+A way with highway=* and the corresponding name should be found nearby. The belonging to a street can alternatively be represented by a associatedStreet relation. The keys addr:housenumber=* und addr:street=* in principle are the only necessary ones if there are valid border polygons. If you are not sure if it is so, just add addr:city=*, addr:postcode=* and addr:country=*. This is usually.		
+Kirkland, WA - double street sign.jpg
+addr:place	 user defined	Node Area	 part of address, which is not related to street, but to some territorial zone, linear object, node or some abstract object.		
+addr:postcode	 user defined	Node Area	 The postal code of the building/area.		
+addr:city	 user defined	Node Area	 May or may not be a clone of is_in:city=* (in some places the city in the address corresponds to the post office that serves the area rather than the actual city, if any, in which the building is located)! The name of the city as given in postal addresses of the building/area.		
+Lillerod.jpg
+addr:country	 user defined	Node Area	 The ISO 3166-1 alpha-2 two letter country code in upper case. 
+Example: "DE" for Germany, "FR" for France, "IT" for Italy. 
+Caveat: The ISO 3166-1 code for Great Britain is "GB" and not "UK".. See also:  is_in:country=*		
+addr:full	 user defined	Node Area	 Use this for a full-text, often multi-line, address if you find the structured address fields unsuitable for denoting the address of this particular location. Examples: "Fifth house on the left after the village oak, Smalltown, Smallcountry" or "1200 West Sunset Boulevard Suite 110A". Beware that these strings can hardly be parsed by software.		
+For countries using hamlet, subdistrict, district, province, state
+addr:hamlet	 user defined	Node Area	 The hamlet of the object.		
+Grosvenor Place 2 2008 06 19.jpg
+addr:suburb	 user defined	Node Area	 If an address exists several times in a city. You have to add the name of the settlement. See Australian definition of suburb.	
+addr:subdistrict	 user defined	Node Area	 The subdistrict of the object.	
+addr:district	 user defined	Node Area	 The district of the object.	
+addr:province	 user defined	Node Area	 The province of the object.		
+addr:state	 user defined	Node Area	 The state of the object. For the US, uppercase two-letter postal abbreviations (AK, CA, HI, NY, TX, WY, etc.) are used.		
+Tags for interpolation ways
+addr:interpolation	 all/even/odd/ alphabetic	Way	 How to interpolate the house numbers belonging to the way along the respective street. 
+See detailed description.		Sporilov, Púchovská, oznacení domu.jpg
+addr:interpolation	 Number	Way	 Every nth house between the end nodes is represented by the interpolation way.	
+addr:inclusion	 actual/estimate/potential	Way	 Optional tag to indicate the accuracy level of survey used to create the address interpolation way. 
+See detailed description.	
+This section is a wiki template with a default description in English. Editable here.
+Annotation
+Providing further information about tag values for other mappers and in some cases also for users. See Annotations for more details.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+attribution	User defined	Node Way Area Relation	 Attribution to originator if required		
+comment	User defined	Node Way Area Relation	 Comment. Usually a description of a changeset primarily for other mappers. See note=* for nodes, ways and relations.		
+description	User defined	Node Way Area Relation	 Text that might be viewable to the end user (perhaps using a search system or a map with pop-ups)		
+email	User defined	Node Way Area Relation	E-Mail address associated with an object
+see also: contact=* or contact:email=*		
+fax	User defined	Node Way Area Relation	Fax number associated with an object 
+see also: contact=* or contact:fax=*		
+fixme	User defined	Node Way Area Relation	 A description to yourself or to other mappers of a (possible) error in the map		
+image	URL	Node Way Area Relation	 Reference to an image (use the source_ref=* key below when the image is referencing the source of the element)		
+note	User defined	Node Way Area Relation	 A note to yourself or to other mappers.		
+phone	User defined	Node Way Area Relation	Telephone number associated with an object
+see also: contact=* or contact:phone=*		
+source	User defined	Node Way Area Relation	 Indicates the source of some information added to OpenStreetMap.		
+source	 extrapolation	Node Way Area Relation	 Extension of information from a known source		
+source	 historical	Node Way Area Relation	 From out-of-copyright mapping or other historical document		
+source	 image	Node Way Area Relation	 Photograph or video		
+source	 knowledge	Node Way Area Relation	 Local or common knowledge		
+source	 survey	Node Way Area Relation	 Track from GPS unit (usually GPX fomat) or other physical survey; suggested addition - survey:date=YYYY-MM-DD		
+source	 voice	Node Way Area Relation	 Voice recordings; e.g., dictaphone		
+source:name	User defined	Node Way Area Relation	 Source used to gather name information; e.g., for street names		
+source:ref	User defined	Node Way Area Relation	 Reference data source; e.g., for road numbers		
+source_ref	User defined	Node Way Area Relation	 To record the URI, source reference (e.g., Landsat) or other link to physical sources		
+todo	User defined	Node Way Area Relation	 A text note to yourself or another mapper describing how the particular element can be improved		
+url	URL	Node Way Area Relation	URL associated with an object - Use more precise key like website=*, image=* or wikipedia=* where applicable!		
+website	URL	Node Way Area Relation	 Official website of an object
+see also: contact=* or contact:website=*		
+wikipedia	URL or article title	Node Way Area Relation	Wikipedia article associated with an object		
+This table is a wiki template with a default description in English. Editable here.
+Name
+The name tag is the primary tag used for naming a Element. See Names for more information on how to use this tag.
+Key	 Value	 Element	 Comment
+name	 User Defined	Node Way Area	 The common default name. (Note: For disputed areas, please use the name as displayed on e.g. street signs for the name tag. Put all alternatives into either localized name tags (e.g. name:tr/name:el) or the variants (e.g. loc_name/old_name/alt_name). Thank you.)
+name:<lg>	 User Defined	Node Way Area	 Name in different language eg. name:fr=Londres. See: Multilingual names
+alt_name	 User Defined	Node Way Area	 another name or names by which the feature is known e.g. name=Field Fare Road and alt_name=Fieldfare Road, or name=University Centre and alt_name=Grad Pad
+alt_name:<lg>	 User Defined	Node Way Area	 Alternative name in different language eg. alt_name:fr=Londres. See: Multilingual names
+int_name	 User Defined	Node Way Area	 International name (note: consider using language specific names instead, e.g. name:en=... - see above - International does not (necessarily) mean English)
+loc_name	 User Defined	Node Way Area	 Local name
+nat_name	 User Defined	Node Way Area	 National name
+official_name	 User Defined	Node Way Area	 It has been created for country names but we need a clarification for other cases between "name", "int_name", "loc_name" and "official_name". Example: official_name=Principat d'Andorra (where "name" is name=Andorra)
+old_name	 User Defined	Node Way Area	 Historical name
+old_name:<lg>	 User Defined	Node Way Area	 Old name in different language eg. old_name:fr=Londres. See: Multilingual names
+reg_name	 User Defined	Node Way Area	 Regional name
+short_name	 User Defined	Node Way Area	 Common abbreviation, useful for searching (recognized by Nominatim)
+sorting_name	 User Defined	Node Way Area	 name, used for correct sorting of names — This is only needed when sorting names cannot be based only on their orthography (using the Unicode Collation Algorithm with collation tables tailored by language and script, or when sorted lists of names are including names written in multiple languages and/or scripts) but requires ignoring some parts such as:
+ignoring leading articles, or
+lowering the relative importance of first names cited before a last name,
+ignoring the generic part of a street name when it occurs before the specific name (e.g. in French with "rue", "boulevard", "place", etc.),
+all of them being ignored at the primary sort level and not easily inferable by a preprocessing algorithm.
+
+This table is a wiki template with a default description in English. Editable here.
+Properties
+Used to give additional information of a general nature about another element.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+area	 yes	Area	 Means a feature that is normally linear is an area. You should not add this to features that are already defined as an area type.		
+bridge	 yes / aqueduct / viaduct / swing / ...	Way Node	 A bridge, use together with the layer tag. Value "yes" is generic, or you can specialize.	Mapping-Features-Road-Bridge.png	Bridge-yes.jpg
+covered	 yes	NodeWayArea	 Used to denote that a node, way or area is covered by another entity (or in some cases the ground), when the use of layers is inappropriate, or additional clarification is needed.	 Various, depending on the covered entity	Covered.jpg
+crossing	 no / traffic_signals / uncontrolled	Node			
+cutting	 yes	Way	 A cut in the land to carry a road or tram. Mostly in hilly landscape. Source		Road cut.jpg
+disused	 yes	Node Way Area	 For features that are useful for navigation, yet are unused. See abandoned=* if infrastructure is removed.		
+drive_through	 yes / no	Node Area	 Used to indicate if a pharmacy, bank, atm, or fast_food, or post_box offers drive_thru service.		
+drive_in	 yes / no	Node Area	 Used to indicate if a cinema is a drive-in cinema or a restaurant offers drive-in service. drive_in is different than drive_thru		
+ele	 Number	Node Area	 Elevation (also known as altitude or height) above mean sea level in metre, based on geoid model EGM 96 which is used by WGS 84 (GPS). (see also Altitude)		
+embankment	 yes	Way	 A raised bank to carry a road, railway, or canal across a low-lying or wet area. Source	Mapping-Features-Road-Embankment.png	Embankment.jpg
+end_date	 Date	Way	 Date feature was removed		
+est_width	 Number	Way	 A rough guess of the width of way in metres		
+internet_access	 public/service/terminal/wired/wlan/	Node  Area	 This tag is for indication that a map entity such as a building, a shop, restaurant, etc. offers internet access to the public, either as a paid service or even for free.		
+Internet-Sign.jpg
+layer	 -5 to 5	Way	 0: ground (default); -1..-5:under ground layer; 1..5 (not +1):above ground layer
+This is intended to indicate actual physical separation, shouldn't be used just to influence rendering order.		
+narrow	 yes	Way	 Relative indication that a way (waterway, highway, cycleway) gets narrower.		
+Narrow-sign.jpg
+opening_hours	 24/7 or mo md hh:mm-hh:mm. (read described syntax)	Node Way Area	 opening_hours describes when something is open.	
+Pharmacy dispencing 24.png
+operator	 User Defined	Node Way Area	 The operator tag can be used to name a company or corporation who's responsible for a certain object or who operates it.		
+start_date	 Date	Node Way AreaRelation	 Date feature was created		
+TMC:LocationCode	 see description	Way Node Relation	 An identifier in electronic traffic-messages.		
+tunnel	 yes	Way	 A tunnel, use together with the layer tag.	Mapping-Features-Road-Tunnel.png	Tunnel.jpg
+toilets:wheelchair	 yes / no	Node Area	 States if a location has a wheelchair accessible toilet or not.		
+wheelchair	 yes / no / limited	Node Way Area	 Indicates if a place is accessible using a wheelchair.		
+Standard rollstuhl.jpg
+width	 Number	Way	 Width of way in metres		
+wood	 coniferous / deciduous / mixed	Node Area	 Applies to landuse=forest and natural=wood detailing the sort of trees found within each landuse. Makes most sense when applied to areas.		
+This table is a wiki template with a default description in English. Editable here.
+References
+Used to added reference information for an element.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+iata	 User Defined	Node Way Area	IATA International airport codes		
+icao	 User Defined	Node Way Area	ICAO International airport codes		
+int_ref	 User Defined	Node Way Area	 International reference (eg E 30)		
+lcn_ref	 User Defined	Way	 The number of the local cycle network		
+loc_ref	 User Defined	Node Way Area	 Local reference		
+nat_ref	 User Defined	Node Way Area	 National reference		
+ncn_ref	 User Defined	Way	 The number reference (eg 54) of a National Cycle Network route.		
+old_ref	 User Defined	Node Way Area	 Historical reference		
+rcn_ref	 User Defined	Way	 The number of the regional cycle network.		
+ref	 User Defined	Node Way Area Relation	 The common default reference (eg M25, in Germany always with space eg A 5)		
+reg_ref	 User Defined	Node Way Area	 Regional reference		
+source_ref	 User Defined	Node Way Area	 To record the URI, source reference (eg Landsat) or other link to physical sources.		
+This table is a wiki template with a default description in English. Editable here.
+Restrictions
+Used to define restrictions that apply to the associated element. For more information see Restrictions.
+Key	 Value	 Element	 Comment	 Rendering	 Photo
+Vehicle types
+access	 agricultural / delivery / designated / destination / forestry / no / official / permissive / private / unknown / yes	Way	 General access permission.
+agricultural - Only for agricultural traffic
+delivery - Only when delivering to the element.
+designated - A preferred or designated route for a specific vehicle type or types. Not compulsory but often marked by a traffic sign
+destination - Used for ways in designated local traffic areas, where traffic should only enter if its destination is within the area
+forestry - Only for forestry traffic
+no - No access for the general public. Consider using another tag indicating who can use the element
+official - The way is dedicated to a specific mode of travel by law. Usually marked by traffic signs and exclusive. In Germany use is also compulsory. clarification needed
+permissive - Open to general traffic until such time as the owner revokes the permission which they are legally allowed to do at any time in the future.
+private - Only with permission of the owner on an individual basis
+unknown - No information provided on access. This is the default value for most features with a general assumption that access is allowed for all purposes
+yes - The public has an official, legal right of access, i.e. it's a right of way (default value)
+agricultural	 yes / no	Way	 Access permission for agricultural vehicles, e.g. tractors.		
+Agricultural.png
+atv	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access restricted to wheeled vehicles 1.27m (50 inches) or less in width		
+bdouble	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	WayArea	 Access permission for Wikipedia Road_train#B-double on Wikipedia, A B-double (B-Train) consists of a prime mover towing a specialised trailer (known as a "lead" or "A"-trailer) that has a fifth-wheel mounted on the rear towing another semi-trailer, resulting in two articulation points.		
+bicycle	 yes / designated / official / private / permissive / dismount / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for bicycles. For values see above. Usage of bicycle=dismount and bicycle=no will vary in different countries. If according to local traffic rules a bicycle is no longer seen as a bicycle when there's no one driving it, then there's no need for using bicycle=dismount. If the local legislation still sees an undriven bicycle as a bicycle then you may need to use both bicycle=dismount and bicycle=no.		
+Bicycle.png
+boat	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way			
+emergency	 yes	Way	 Access permission for emergency motor vehicles; e.g., ambulance, fire truck, police car		
+foot	 yes / designated / official / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for pedestrians. For values see above		
+Foot.png
+forestry	 yes / no	Way	 Access permission for forestry vehicles, e.g. tractors.		
+goods	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for light commercial vehicles (LCV) or goods vehicles of category N1 with a maximum allowed mass of up to 3.5 tonnes. In the USA, combined weight 26,000 lbs or less. For values see above.		
+Hgv.png
+hazmat	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for vehicles carrying hazardous materials. For values see above		
+hgv	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for Heavy Goods Vehicles (HGV) (UK), e.g. for goods vehicles of category N2 and N3 (trucks, lorries) with a maximum allowed mass over 3.5 tonnes. In the USA, combined weight 26,001 lbs or greater. For values see above		
+Hgv.png
+horse	 yes / designated / official / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for horse riders. For values see above		
+Horse.png
+inline_skates	 yes / no	WayNodeArea	 Access permission for Inline Skates		
+lhv	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for Wikipedia Longer_Heavier_Vehicle on Wikipedia, e.g. for vehicles with 6 axles and can carry up to 44 metric tons		
+motorboat	 yes / designated / private / permissive / destination / delivery / agricultural / forestry /unknown / no	Way			
+motorcar	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for (motor) cars. For values see above		
+Car.png
+motorcycle	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for motorcycles. For values see above		
+Motorcycle.png
+motor_vehicle	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for any motorized vehicle. For values see above		
+psv	 yes / designated / private / permissive / destination / delivery / agricultural / forestry /unknown / no	Way	 Access permission for Public Service Vehicles (UK), e.g. buses and coaches. See above		
+Bus.png
+roadtrain	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	WayArea	 Access permission for Wikipedia Road_train on Wikipedia, A road train consists of a relatively conventional tractor unit, but instead of pulling one trailer or semi-trailer, the road train pulls two or more of them.		
+tank	 yes / designated / private / permissive / destination / delivery / agricultural / forestry /unknown / no	WayArea	 Access permission for (military) tanks		
+vehicle	 yes / designated / private / permissive / destination / delivery / agricultural / forestry / unknown / no	Way	 Access permission for all vehicles. For values see above		
+Access.png
+4wd_only	 yes	Way	 A road signed as only suitable for 4WD (offroad) vehicles		
+Other
+charge	 Number	Node	 Amount of toll or fee		
+disused	 yes	Node Way Area	 For features that are useful for navigation, yet are unused or abandoned.		
+maxheight	Height	Way	 height limit - units other than metres should be explicit		
+Maxheight.png
+Maxheight photo.JPG
+maxlength	Length	Way	 length limit - units other than metres should be explicit		
+Maxlength.png
+maxspeed	Speed	Way	 Maximum speed - units other than km/h should be explicit		
+Maxspeed.png
+maxstay	 Number	Way	 Maximum stay, in units given (hour/hours/day/days)		
+maxweight	Weight	Way	 Weight limit - units other than tonnes should be explicit		
+Maxweight.png
+maxwidth	Width	Way	 width limit - units other than metres should be explicit		
+Maxwidth.png
+minspeed	Speed	Way	 Minimum speed - units other than km/h should be explicit		
+Minspeed.svg
+noexit	 yes	Node Way	 A dead end road/cul de sac with only one access road		
+Noexit.png
+oneway	 yes / no / -1	Way	
+oneway=yes for traffic direction same as the sequence of nodes of the way (maplint will highlight "true" and "1", so they can be updated to "yes").
+oneway=no for bidirectional traffic (maplint will highlight "false" and "0", so they can be updated to "no").
+oneway=-1 for traffic direction opposite to the sequence of nodes of the way (if the way cannot be reversed).
+Some road types are assumed to be one-way (e.g. highway=motorway), others are assumed to be two-way (most others). The direction of the sequence of nodes of a way is indicated by sequential order of nodes within the way. 
+Hint: When using the editor JOSM, enable 'arrows'!).
+
+The maplint highlighting will help with updating of the tags which will allow simplification of style sheets to prevent unintentional rendering errors creeping in. See Talk:Key:oneway.
+
+OneWaySign.png
+toll:key	 yes	Node	 Toll or fee must be paid to access way, see also barrier=toll_booth		
+traffic_sign	 city_limit	Node	 Start/end sign of city limits, in most (all?) countries implies a specific "city maxspeed".		Wilster.jpg
+This table is a wiki template with a default description in English. Editable here.
+Categories: Map Features templateTagValue enabledProposals adminReferenceTagging guidelinesFeaturesSemantics
+Navigation menu
+EnglishCreate accountLog inPageDiscussionReadView sourceView history
+Search
+Main Page
+The map
+Map Features
+Contributors
+Help
+Blogs
+Shop
+Donations
+Recent changes
+Tools
+What links here
+Related changes
+Special pages
+Printable version
+Permanent link
+Page information
+Cite this page
+This page was last modified on 11 January 2014, at 17:01.
+Content is available under Creative Commons Attribution-ShareAlike 2.0 license unless otherwise noted.
+Privacy policyAbout OpenStreetMap WikiDisclaimersCreative Commons Attribution-ShareAlike 2.0 license Powered by MediaWiki
