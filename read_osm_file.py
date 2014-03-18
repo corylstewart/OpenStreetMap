@@ -35,6 +35,7 @@ SECOND_TAGS = ['shop', 'tiger:county', 'golf', 'gnis:ST_num', 'man_made', 'tiger
                'tiger:name_base', 'abutters', 'gnis:created', 'building', 'gnis:ST_alpha', 'natural', 'wheelchair',
                'historic', 'oneway', 'addr:country']
 
+#dict that contains a mapping between abbreviations and the name
 WAY_TYPE_DICT = {'dr.' : 'Drive', 'dr' : 'Drive',
                 'rd.' : 'Road', 'rd' : 'Road',
                 'st.' : 'Street', 'st' : 'Street',
@@ -47,6 +48,7 @@ WAY_TYPE_DICT = {'dr.' : 'Drive', 'dr' : 'Drive',
                 }
 
 def find_tags(file_in):
+    '''find the top level tags and second level tags in an osm file'''
     top_tags = set()
     second_tags = set()
     for _, element in ET.iterparse(file_in):
@@ -57,7 +59,11 @@ def find_tags(file_in):
                 #print tag.get('k'), ' : ', tag.get('v')
     return {'top_tags': top_tags, 'second_tags' : second_tags}
 
+#tags = find_tags('oahu.osm')
+
 def find_tag_types(file_in, print_it = False):
+    '''returns a dict of each tag type in the osm file as well as
+    a count of the types of each tags value'''
     types = {}
     ks = set()
     for _, element in ET.iterparse(file_in):
@@ -75,8 +81,9 @@ def find_tag_types(file_in, print_it = False):
             for t2 in types[t]:
                 print t2, ' : ', types[t][t2]
         print ks
-
     return types
+
+#print find_tag_types('oahu.osm')
 
 def shape_element(element):
     node = {}   
@@ -125,21 +132,3 @@ def process_map(file_in, pretty = False):
                 else:
                     fo.write(json.dumps(el) + "\n")
     return data
-
-def test(filename):
-
-    #data = process_map(filename, True)
-    #find_tags(filename)
-    
-    #for tag in SECOND_TAGS:
-    #    print '*********************', tag, '**************************'
-    #    find_tag_types(filename, tag)
-
-    find_tag_types(filename, print_it = True)
-
-    print 'done'
-
-
-if __name__ == "__main__":
-    filename = 'oahu.osm'
-    test(filename)
